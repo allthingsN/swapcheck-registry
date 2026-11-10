@@ -294,10 +294,12 @@ test("no model writes registry facts: pipeline code never calls an LLM API", () 
 test("workflows pin actions by full SHA, use least privilege and avoid pull_request_target", () => {
   const dir = join(ROOT, ".github/workflows");
   const files = readdirSync(dir);
-  assert.deepEqual(files.sort(), ["pages.yml", "update.yml"]);
+  assert.deepEqual(files.sort(), ["ci.yml", "pages.yml", "update.yml"]);
   for (const file of files) {
     const text = readFileSync(join(dir, file), "utf8");
     assert.equal(text.includes("pull_request_target"), false, file);
+    // Only the scheduled update may read the signing key or any other secret.
+    if (file !== "update.yml") assert.equal(text.includes("secrets."), false, `${file} must not read secrets`);
     assert.match(text, /^permissions:\n {2}contents: read/m, file);
     for (const use of text.matchAll(/uses:\s*(\S+)/g)) assert.match(use[1], /@[0-9a-f]{40}$/, `${file}: ${use[1]}`);
   }

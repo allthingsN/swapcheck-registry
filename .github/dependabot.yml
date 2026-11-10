@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # This repo has no npm dependencies; only the pinned GitHub Actions need updates.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
