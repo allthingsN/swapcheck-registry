@@ -115,14 +115,14 @@ node scripts/record-fixtures.ts gemini        # re-record one source's fixture
 
 ## Automation
 
-- `update.yml` runs every 6 hours. It runs the tests, then the update, opens issues for broken parsers, and opens a pull request. That pull request is merged automatically only when every changed event is high confidence and no model rows changed. Anything else waits for review.
+- `update.yml` runs every 6 hours. It runs the tests, then the update, and opens issues for broken parsers. When every change traces to a provider's own page or API, the signed update is pushed to `main`. Anything else is pushed to a `registry-update-*` branch with an issue asking for review.
 - `pages.yml` verifies the signature, then publishes `dist/` to GitHub Pages.
 
 Repository setup:
 
 - Add a secret `REGISTRY_SIGNING_KEY_PEM` holding the Ed25519 private key in PKCS#8 PEM.
 - Set Pages to deploy from GitHub Actions.
-- Allow GitHub Actions to create pull requests.
+- Allow GitHub Actions to push to `main` (no branch protection that blocks `github-actions`).
 
 Actions are pinned by commit SHA.
 
