@@ -1,0 +1,18 @@
+{
+  "id": "xai-api.reroute.grok-3",
+  "type": "reroute",
+  "provider": "xai",
+  "route": "xai-api",
+  "model": "grok-3",
+  "to": "grok-4.3",
+  "effective": "2026-05-15",
+  "date_precision": "exact",
+  "billing": "replacement_rates",
+  "successor_basis": "provider_named",
+  "notes": "Served at none reasoning effort after the redirect.",
+  "source": "https://docs.x.ai/developers/migration/may-15-retirement",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "xai"
+}

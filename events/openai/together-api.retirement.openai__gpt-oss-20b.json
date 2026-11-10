@@ -1,0 +1,17 @@
+{
+  "id": "together-api.retirement.openai__gpt-oss-20b",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "together-api",
+  "model": "openai/gpt-oss-20b",
+  "to": "Qwen/Qwen3.5-9B",
+  "effective": "2026-09-15",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

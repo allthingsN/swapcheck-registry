@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.mistral-saba-24b",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "groq-api",
+  "model": "mistral-saba-24b",
+  "to": "qwen/qwen3-32b",
+  "effective": "2025-07-30",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

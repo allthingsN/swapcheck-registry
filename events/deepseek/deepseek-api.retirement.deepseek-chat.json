@@ -1,0 +1,17 @@
+{
+  "id": "deepseek-api.retirement.deepseek-chat",
+  "type": "retirement",
+  "provider": "deepseek",
+  "route": "deepseek-api",
+  "model": "deepseek-chat",
+  "to": "deepseek-v4-flash",
+  "effective": "2026-07-24",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Announced 2026-04-24: the legacy names pointed at the thinking and non-thinking modes of deepseek-v4-flash until discontinued.",
+  "source": "https://api-docs.deepseek.com/updates",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "deepseek"
+}

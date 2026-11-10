@@ -1,0 +1,20 @@
+{
+  "id": "anthropic-api.parameter_change.claude-mythos-5.2026-10-21",
+  "type": "parameter_change",
+  "provider": "anthropic",
+  "route": "anthropic-api",
+  "model": "claude-mythos-5",
+  "effective": "2026-10-21",
+  "date_precision": "exact",
+  "params": [
+    "temperature",
+    "top_p",
+    "top_k"
+  ],
+  "notes": "Removed in API version 2026-10-21; requests that send these return a 400 error. The date is an API version, so it applies when a request uses that version or later.",
+  "source": "https://platform.claude.com/docs/en/about-claude/model-deprecations#api-parameter-deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "anthropic"
+}

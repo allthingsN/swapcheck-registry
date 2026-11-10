@@ -1,0 +1,17 @@
+{
+  "id": "anthropic-api.retirement.claude-sonnet-4-20250514",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "anthropic-api",
+  "model": "claude-sonnet-4-20250514",
+  "to": "claude-sonnet-5-5",
+  "effective": "2026-06-15",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Deprecated 2026-04-14.",
+  "source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "anthropic"
+}

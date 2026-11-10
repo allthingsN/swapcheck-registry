@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.mixedbread-ai__mxbai-rerank-large-v2",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "mixedbread-ai/Mxbai-Rerank-Large-V2",
+  "effective": "2026-03-06",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

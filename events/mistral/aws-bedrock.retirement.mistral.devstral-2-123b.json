@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.retirement.mistral.devstral-2-123b",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "aws-bedrock",
+  "model": "mistral.devstral-2-123b",
+  "effective": "2027-03-30",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Amazon Bedrock schedule; dates are specific to this route.",
+  "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "bedrock"
+}

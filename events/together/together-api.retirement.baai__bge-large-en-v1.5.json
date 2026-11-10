@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.baai__bge-large-en-v1.5",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "BAAI/bge-large-en-v1.5",
+  "effective": "2026-02-06",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

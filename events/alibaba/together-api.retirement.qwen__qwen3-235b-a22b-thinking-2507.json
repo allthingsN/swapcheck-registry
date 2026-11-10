@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.qwen__qwen3-235b-a22b-thinking-2507",
+  "type": "retirement",
+  "provider": "alibaba",
+  "route": "together-api",
+  "model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "effective": "2026-03-06",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

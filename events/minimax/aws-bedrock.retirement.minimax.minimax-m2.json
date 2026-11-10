@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.retirement.minimax.minimax-m2",
+  "type": "retirement",
+  "provider": "minimax",
+  "route": "aws-bedrock",
+  "model": "minimax.minimax-m2",
+  "effective": "2027-03-30",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Amazon Bedrock schedule; dates are specific to this route.",
+  "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "bedrock"
+}

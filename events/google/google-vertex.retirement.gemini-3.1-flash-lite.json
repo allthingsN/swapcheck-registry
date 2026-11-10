@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex.retirement.gemini-3.1-flash-lite",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-vertex",
+  "model": "gemini-3.1-flash-lite",
+  "to": "gemini-3.5-flash-lite",
+  "effective": "2027-05-07",
+  "date_precision": "estimated",
+  "successor_basis": "inferred",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "litellm"
+}

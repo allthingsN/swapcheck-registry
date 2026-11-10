@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.moonshotai__kimi-k2-instruct-0905",
+  "type": "retirement",
+  "provider": "moonshot",
+  "route": "groq-api",
+  "model": "moonshotai/kimi-k2-instruct-0905",
+  "to": "openai/gpt-oss-120b",
+  "effective": "2026-04-15",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

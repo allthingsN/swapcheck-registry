@@ -1,0 +1,16 @@
+{
+  "id": "openai-api.retirement.text-moderation-007",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "text-moderation-007",
+  "to": "omni-moderation",
+  "effective": "2025-10-27",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

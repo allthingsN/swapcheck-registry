@@ -1,0 +1,16 @@
+{
+  "id": "together-api.reroute.mistralai__mistral-7b-instruct-v0.3",
+  "type": "reroute",
+  "provider": "mistral",
+  "route": "together-api",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "to": "mistralai/Ministral-3-14B-Instruct-2512",
+  "billing": "unknown",
+  "successor_basis": "provider_named",
+  "notes": "Listed as an active redirect; the page does not give the date it began.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

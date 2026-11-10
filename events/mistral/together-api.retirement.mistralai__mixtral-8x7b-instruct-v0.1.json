@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.mistralai__mixtral-8x7b-instruct-v0.1",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "together-api",
+  "model": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+  "effective": "2026-04-16",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mistral-api.retirement.open-mistral-7b",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "mistral-api",
+  "model": "open-mistral-7b",
+  "to": "ministral-8b-2512",
+  "effective": "2025-03-30",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Status on page: Retired. Deprecated 2024-11-30.",
+  "source": "https://docs.mistral.ai/models",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "mistral"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.price_change.anthropic.claude-3-haiku-20240307-v1..0",
+  "type": "price_change",
+  "provider": "anthropic",
+  "route": "aws-bedrock",
+  "model": "anthropic.claude-3-haiku-20240307-v1:0",
+  "effective": "2026-10-10",
+  "date_precision": "exact",
+  "billing": "unknown",
+  "notes": "Start of public extended access. AWS says to expect higher pricing set by the model provider and does not publish the amount on this page.",
+  "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "bedrock"
+}

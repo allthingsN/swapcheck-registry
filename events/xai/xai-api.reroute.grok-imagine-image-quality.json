@@ -1,0 +1,17 @@
+{
+  "id": "xai-api.reroute.grok-imagine-image-quality",
+  "type": "reroute",
+  "provider": "xai",
+  "route": "xai-api",
+  "model": "grok-imagine-image-quality",
+  "to": "grok-imagine-image-2.0",
+  "effective": "2026-11-02",
+  "date_precision": "exact",
+  "billing": "replacement_rates",
+  "successor_basis": "provider_named",
+  "source": "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "xai"
+}

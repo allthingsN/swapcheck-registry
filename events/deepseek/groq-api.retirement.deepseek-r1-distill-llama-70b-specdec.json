@@ -1,0 +1,15 @@
+{
+  "id": "groq-api.retirement.deepseek-r1-distill-llama-70b-specdec",
+  "type": "retirement",
+  "provider": "deepseek",
+  "route": "groq-api",
+  "model": "deepseek-r1-distill-llama-70b-specdec",
+  "effective": "2025-04-14",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

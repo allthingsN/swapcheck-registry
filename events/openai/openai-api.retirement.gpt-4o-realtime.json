@@ -1,0 +1,16 @@
+{
+  "id": "openai-api.retirement.gpt-4o-realtime",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "gpt-4o-realtime",
+  "to": "gpt-realtime-2.1",
+  "effective": "2027-01-20",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

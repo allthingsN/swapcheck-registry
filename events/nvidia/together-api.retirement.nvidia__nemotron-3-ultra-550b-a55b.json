@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.nvidia__nemotron-3-ultra-550b-a55b",
+  "type": "retirement",
+  "provider": "nvidia",
+  "route": "together-api",
+  "model": "nvidia/Nemotron-3-ultra-550b-a55b",
+  "effective": "2026-08-27",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

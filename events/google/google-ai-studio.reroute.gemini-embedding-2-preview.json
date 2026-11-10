@@ -1,0 +1,18 @@
+{
+  "id": "google-ai-studio.reroute.gemini-embedding-2-preview",
+  "type": "reroute",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-embedding-2-preview",
+  "to": "gemini-embedding-2",
+  "effective": "2026-11-06",
+  "date_precision": "exact",
+  "billing": "unknown",
+  "successor_basis": "provider_named",
+  "notes": "Requests route to the replacement automatically on this date; the provider states it in a dated notice, which is more specific than the page's general earliest-possible note for shutdown dates.",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "azure-foundry.retirement.grok-4-fast-reasoning.v1",
+  "type": "retirement",
+  "provider": "xai",
+  "route": "azure-foundry",
+  "model": "grok-4-fast-reasoning",
+  "to": "grok-4-1-fast-reasoning",
+  "effective": "2026-05-01",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Azure lifecycle stage: Retired. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

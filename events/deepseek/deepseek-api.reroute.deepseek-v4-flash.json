@@ -1,0 +1,18 @@
+{
+  "id": "deepseek-api.reroute.deepseek-v4-flash",
+  "type": "reroute",
+  "provider": "deepseek",
+  "route": "deepseek-api",
+  "model": "deepseek-v4-flash",
+  "to": "deepseek-flash",
+  "effective": "2026-09-10",
+  "date_precision": "exact",
+  "billing": "replacement_rates",
+  "successor_basis": "provider_named",
+  "notes": "Requests are served by DeepSeek-V4.1-Flash-1017; the provider calls this temporary compatibility routing.",
+  "source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "deepseek"
+}

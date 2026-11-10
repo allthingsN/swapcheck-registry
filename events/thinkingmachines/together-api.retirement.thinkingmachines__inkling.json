@@ -1,0 +1,17 @@
+{
+  "id": "together-api.retirement.thinkingmachines__inkling",
+  "type": "retirement",
+  "provider": "thinkingmachines",
+  "route": "together-api",
+  "model": "thinkingmachines/Inkling",
+  "to": "meta-models/Muse-Spark-Open-816B-A42B",
+  "effective": "2026-11-06",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Scheduled removal from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

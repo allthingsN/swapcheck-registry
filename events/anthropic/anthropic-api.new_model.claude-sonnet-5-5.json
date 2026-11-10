@@ -1,0 +1,14 @@
+{
+  "id": "anthropic-api.new_model.claude-sonnet-5-5",
+  "type": "new_model",
+  "provider": "anthropic",
+  "route": "anthropic-api",
+  "model": "claude-sonnet-5-5",
+  "effective": "2026-09-28",
+  "date_precision": "estimated",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "models-dev"
+}

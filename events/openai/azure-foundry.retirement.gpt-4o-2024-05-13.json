@@ -1,0 +1,17 @@
+{
+  "id": "azure-foundry.retirement.gpt-4o-2024-05-13",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "azure-foundry",
+  "model": "gpt-4o-2024-05-13",
+  "to": "gpt-5.1",
+  "effective": "2027-01-14",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Azure lifecycle stage: Deprecated. Azure footnotes this date; deployment types can differ, so check the schedule.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

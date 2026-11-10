@@ -1,0 +1,17 @@
+{
+  "id": "azure-foundry.retirement.cohere-command-a.v1",
+  "type": "retirement",
+  "provider": "cohere",
+  "route": "azure-foundry",
+  "model": "cohere-command-a",
+  "to": "coherelabs-command-a-plus-05-2026-fp8",
+  "effective": "2027-02-15",
+  "date_precision": "estimated",
+  "successor_basis": "provider_named",
+  "notes": "Azure lifecycle stage: GA. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

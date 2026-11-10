@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.gemma2-9b-it",
+  "type": "retirement",
+  "provider": "google",
+  "route": "groq-api",
+  "model": "gemma2-9b-it",
+  "to": "llama-3.1-8b-instant",
+  "effective": "2025-10-08",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

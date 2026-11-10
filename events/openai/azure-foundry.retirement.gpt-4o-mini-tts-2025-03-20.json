@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.gpt-4o-mini-tts-2025-03-20",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "azure-foundry",
+  "model": "gpt-4o-mini-tts-2025-03-20",
+  "effective": "2026-10-15",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: Preview.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

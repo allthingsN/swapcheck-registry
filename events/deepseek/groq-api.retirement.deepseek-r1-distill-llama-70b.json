@@ -1,0 +1,17 @@
+{
+  "id": "groq-api.retirement.deepseek-r1-distill-llama-70b",
+  "type": "retirement",
+  "provider": "deepseek",
+  "route": "groq-api",
+  "model": "deepseek-r1-distill-llama-70b",
+  "to": "llama-3.3-70b-versatile",
+  "effective": "2025-10-02",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "The provider also names: openai/gpt-oss-120b.",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

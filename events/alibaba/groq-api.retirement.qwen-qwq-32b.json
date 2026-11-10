@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.qwen-qwq-32b",
+  "type": "retirement",
+  "provider": "alibaba",
+  "route": "groq-api",
+  "model": "qwen-qwq-32b",
+  "to": "qwen/qwen3-32b",
+  "effective": "2025-07-14",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

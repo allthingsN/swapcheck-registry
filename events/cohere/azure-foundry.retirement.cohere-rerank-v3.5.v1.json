@@ -1,0 +1,17 @@
+{
+  "id": "azure-foundry.retirement.cohere-rerank-v3.5.v1",
+  "type": "retirement",
+  "provider": "cohere",
+  "route": "azure-foundry",
+  "model": "Cohere-rerank-v3.5",
+  "to": "Cohere-rerank-v4.0-pro",
+  "effective": "2026-05-14",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Azure lifecycle stage: Retired. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

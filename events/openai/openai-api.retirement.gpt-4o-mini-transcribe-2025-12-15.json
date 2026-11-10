@@ -1,0 +1,17 @@
+{
+  "id": "openai-api.retirement.gpt-4o-mini-transcribe-2025-12-15",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "gpt-4o-mini-transcribe-2025-12-15",
+  "to": "gpt-live-transcribe",
+  "effective": "2027-02-26",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "The provider also names: gpt-transcribe.",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

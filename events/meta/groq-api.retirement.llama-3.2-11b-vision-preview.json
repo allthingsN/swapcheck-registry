@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.llama-3.2-11b-vision-preview",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "groq-api",
+  "model": "llama-3.2-11b-vision-preview",
+  "to": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "effective": "2025-04-14",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

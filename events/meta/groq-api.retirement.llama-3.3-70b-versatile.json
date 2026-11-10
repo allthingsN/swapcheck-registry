@@ -1,0 +1,17 @@
+{
+  "id": "groq-api.retirement.llama-3.3-70b-versatile",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "groq-api",
+  "model": "llama-3.3-70b-versatile",
+  "to": "openai/gpt-oss-120b",
+  "effective": "2026-08-16",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "The provider also names: qwen/qwen3.6-27b.",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

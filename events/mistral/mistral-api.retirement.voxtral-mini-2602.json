@@ -1,0 +1,17 @@
+{
+  "id": "mistral-api.retirement.voxtral-mini-2602",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "mistral-api",
+  "model": "voxtral-mini-2602",
+  "to": "voxtral-mini-transcribe-3-0",
+  "effective": "2027-04-30",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Status on page: Deprecated. Deprecated 2026-10-31.",
+  "source": "https://docs.mistral.ai/models",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "mistral"
+}

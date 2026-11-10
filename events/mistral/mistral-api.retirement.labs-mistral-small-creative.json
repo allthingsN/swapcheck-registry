@@ -1,0 +1,17 @@
+{
+  "id": "mistral-api.retirement.labs-mistral-small-creative",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "mistral-api",
+  "model": "labs-mistral-small-creative",
+  "to": "ministral-8b-2512",
+  "effective": "2026-04-30",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Status on page: Deprecated. Deprecated 2026-03-31.",
+  "source": "https://docs.mistral.ai/models",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "mistral"
+}

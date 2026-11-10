@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.liquid__lfm-2.5-2.6b",
+  "type": "retirement",
+  "provider": "liquid",
+  "route": "openrouter",
+  "model": "liquid/lfm-2.5-2.6b",
+  "effective": "2026-11-13",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openrouter"
+}

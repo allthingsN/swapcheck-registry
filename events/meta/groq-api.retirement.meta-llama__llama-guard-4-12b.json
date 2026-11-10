@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.meta-llama__llama-guard-4-12b",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "groq-api",
+  "model": "meta-llama/llama-guard-4-12b",
+  "to": "openai/gpt-oss-safeguard-20b",
+  "effective": "2026-03-05",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

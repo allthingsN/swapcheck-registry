@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio.retirement.text-embedding-004",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "text-embedding-004",
+  "to": "gemini-embedding-2",
+  "effective": "2026-01-14",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

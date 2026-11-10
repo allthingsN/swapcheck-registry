@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.mistralai__ministral-3-14b-instruct",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "together-api",
+  "model": "mistralai/Ministral-3-14B-Instruct",
+  "effective": "2026-02-25",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

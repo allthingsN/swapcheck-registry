@@ -1,0 +1,14 @@
+{
+  "id": "mistral-api.new_model.mistral-large-4-0-8",
+  "type": "new_model",
+  "provider": "mistral",
+  "route": "mistral-api",
+  "model": "mistral-large-4-0-8",
+  "effective": "2026-10-06",
+  "date_precision": "estimated",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "models-dev"
+}

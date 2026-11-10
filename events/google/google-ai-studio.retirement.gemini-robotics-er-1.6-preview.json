@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio.retirement.gemini-robotics-er-1.6-preview",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-robotics-er-1.6-preview",
+  "to": "gemini-robotics-er-2-preview",
+  "effective": "2026-08-31",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

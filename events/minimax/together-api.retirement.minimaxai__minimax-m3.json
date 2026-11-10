@@ -1,0 +1,17 @@
+{
+  "id": "together-api.retirement.minimaxai__minimax-m3",
+  "type": "retirement",
+  "provider": "minimax",
+  "route": "together-api",
+  "model": "MiniMaxAI/MiniMax-M3",
+  "to": "MiniMaxAI/MiniMax-M3.1-Flash",
+  "effective": "2026-11-06",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Scheduled removal from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

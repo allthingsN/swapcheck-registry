@@ -1,0 +1,16 @@
+{
+  "id": "cohere-api.retirement.command-r-plus-04-2024",
+  "type": "retirement",
+  "provider": "cohere",
+  "route": "cohere-api",
+  "model": "command-r-plus-04-2024",
+  "effective": "2025-09-15",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Cohere recommends a set of alternatives rather than one named replacement.",
+  "source": "https://docs.cohere.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "cohere"
+}

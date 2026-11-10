@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.distil-whisper-large-v3-en",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "groq-api",
+  "model": "distil-whisper-large-v3-en",
+  "to": "whisper-large-v3-turbo",
+  "effective": "2025-08-23",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

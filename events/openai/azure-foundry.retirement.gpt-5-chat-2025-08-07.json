@@ -1,0 +1,17 @@
+{
+  "id": "azure-foundry.retirement.gpt-5-chat-2025-08-07",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "azure-foundry",
+  "model": "gpt-5-chat-2025-08-07",
+  "to": "gpt-chat-latest",
+  "effective": "2026-06-29",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Azure lifecycle stage: Retired.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "google-ai-studio.new_model.gemini-4-argon",
+  "type": "new_model",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-4-argon",
+  "effective": "2026-10-13",
+  "date_precision": "exact",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

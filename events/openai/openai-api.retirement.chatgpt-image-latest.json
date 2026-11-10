@@ -1,0 +1,17 @@
+{
+  "id": "openai-api.retirement.chatgpt-image-latest",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "chatgpt-image-latest",
+  "to": "gpt-image-2.6-sunburst",
+  "effective": "2026-12-01",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "The provider also names: gpt-image-2.6-flare.",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

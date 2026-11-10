@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.mai-image-2.5-pro-2026-06-19",
+  "type": "retirement",
+  "provider": "microsoft",
+  "route": "azure-foundry",
+  "model": "MAI-Image-2.5-Pro-2026-06-19",
+  "effective": "2026-10-01",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: Preview.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

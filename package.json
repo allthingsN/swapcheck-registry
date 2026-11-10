@@ -1,0 +1,14 @@
+{
+  "name": "swapcheck-registry",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Signed, open registry of hosted LLM model changes for Swapcheck.",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "update": "node scripts/update.ts",
+    "update:offline": "node scripts/update.ts --offline"
+  }
+}

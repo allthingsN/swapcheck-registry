@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.gryphe-mythomax-l2-13b",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "gryphe-mythomax-l2-13b",
+  "effective": "2025-06-13",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

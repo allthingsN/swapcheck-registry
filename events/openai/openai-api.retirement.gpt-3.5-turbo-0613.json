@@ -1,0 +1,16 @@
+{
+  "id": "openai-api.retirement.gpt-3.5-turbo-0613",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "gpt-3.5-turbo-0613",
+  "to": "gpt-3.5-turbo",
+  "effective": "2024-09-13",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

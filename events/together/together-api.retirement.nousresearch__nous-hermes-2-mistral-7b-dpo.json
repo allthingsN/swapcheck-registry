@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.nousresearch__nous-hermes-2-mistral-7b-dpo",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+  "effective": "2024-08-22",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

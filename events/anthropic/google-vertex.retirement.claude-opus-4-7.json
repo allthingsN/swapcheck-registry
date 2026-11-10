@@ -1,0 +1,16 @@
+{
+  "id": "google-vertex.retirement.claude-opus-4-7",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "google-vertex",
+  "model": "claude-opus-4-7",
+  "effective": "2027-04-16",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "litellm"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.z-ai__glm-4.5v",
+  "type": "retirement",
+  "provider": "zhipu",
+  "route": "openrouter",
+  "model": "z-ai/glm-4.5v",
+  "effective": "2026-12-31",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openrouter"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "groq-api.retirement.llama-3.2-90b-text-preview",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "groq-api",
+  "model": "llama-3.2-90b-text-preview",
+  "effective": "2024-11-25",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

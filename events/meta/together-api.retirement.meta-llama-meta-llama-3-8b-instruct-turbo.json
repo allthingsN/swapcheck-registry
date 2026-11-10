@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.meta-llama-meta-llama-3-8b-instruct-turbo",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "together-api",
+  "model": "meta-llama-meta-llama-3-8b-instruct-turbo",
+  "effective": "2025-05-16",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

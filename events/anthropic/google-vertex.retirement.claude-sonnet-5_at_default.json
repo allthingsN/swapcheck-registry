@@ -1,0 +1,16 @@
+{
+  "id": "google-vertex.retirement.claude-sonnet-5_at_default",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "google-vertex",
+  "model": "claude-sonnet-5@default",
+  "effective": "2026-12-24",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "litellm"
+}

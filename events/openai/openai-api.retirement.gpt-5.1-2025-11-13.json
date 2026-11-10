@@ -1,0 +1,16 @@
+{
+  "id": "openai-api.retirement.gpt-5.1-2025-11-13",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "gpt-5.1-2025-11-13",
+  "to": "gpt-6-sol",
+  "effective": "2027-04-01",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

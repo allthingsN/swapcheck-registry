@@ -1,0 +1,17 @@
+{
+  "id": "azure-foundry.retirement.claude-opus-4-1.v-",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "azure-foundry",
+  "model": "claude-opus-4-1",
+  "to": "claude-opus-5",
+  "effective": "2026-08-05",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Azure lifecycle stage: Retired. Azure version —.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

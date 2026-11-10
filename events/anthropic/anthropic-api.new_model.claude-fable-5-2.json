@@ -1,0 +1,14 @@
+{
+  "id": "anthropic-api.new_model.claude-fable-5-2",
+  "type": "new_model",
+  "provider": "anthropic",
+  "route": "anthropic-api",
+  "model": "claude-fable-5-2",
+  "effective": "2026-11-09",
+  "date_precision": "estimated",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "models-dev"
+}

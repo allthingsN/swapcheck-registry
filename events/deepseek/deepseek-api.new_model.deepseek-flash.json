@@ -1,0 +1,14 @@
+{
+  "id": "deepseek-api.new_model.deepseek-flash",
+  "type": "new_model",
+  "provider": "deepseek",
+  "route": "deepseek-api",
+  "model": "deepseek-flash",
+  "effective": "2026-10-17",
+  "date_precision": "estimated",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "models-dev"
+}

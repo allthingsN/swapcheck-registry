@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.nvidia__nvidia-nemotron-nano-9b-v2",
+  "type": "retirement",
+  "provider": "nvidia",
+  "route": "together-api",
+  "model": "nvidia/Nvidia-Nemotron-Nano-9B-v2",
+  "effective": "2026-02-25",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

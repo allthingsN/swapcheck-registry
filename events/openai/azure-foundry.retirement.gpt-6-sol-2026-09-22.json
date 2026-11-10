@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.gpt-6-sol-2026-09-22",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "azure-foundry",
+  "model": "gpt-6-sol-2026-09-22",
+  "effective": "2028-03-11",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "litellm"
+}

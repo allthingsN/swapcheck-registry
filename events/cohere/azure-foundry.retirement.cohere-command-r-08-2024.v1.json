@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.cohere-command-r-08-2024.v1",
+  "type": "retirement",
+  "provider": "cohere",
+  "route": "azure-foundry",
+  "model": "Cohere-command-r-08-2024",
+  "effective": "2026-05-12",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: Retired. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

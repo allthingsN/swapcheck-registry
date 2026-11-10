@@ -1,0 +1,17 @@
+{
+  "id": "azure-foundry.retirement.tsuzumi-7b.v2",
+  "type": "retirement",
+  "provider": "ntt-data",
+  "route": "azure-foundry",
+  "model": "tsuzumi-7b",
+  "to": "tsuzumi2",
+  "effective": "2026-08-31",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Azure lifecycle stage: Legacy. Azure version 2.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

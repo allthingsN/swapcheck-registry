@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio.retirement.gemini-2.5-flash-native-audio-preview-12-2025",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-2.5-flash-native-audio-preview-12-2025",
+  "to": "gemini-3.8-live",
+  "effective": "2026-11-17",
+  "date_precision": "earliest_possible",
+  "successor_basis": "provider_named",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

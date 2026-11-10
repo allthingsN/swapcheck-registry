@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.meta-llama-3.1-8b-instruct.v-",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "azure-foundry",
+  "model": "Meta-Llama-3.1-8B-Instruct",
+  "effective": "2026-06-13",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: Retired. Azure version —.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.arcee-ai__virtuoso-large",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "arcee-ai/virtuoso-large",
+  "effective": "2025-11-17",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

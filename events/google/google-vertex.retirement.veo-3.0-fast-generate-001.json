@@ -1,0 +1,16 @@
+{
+  "id": "google-vertex.retirement.veo-3.0-fast-generate-001",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-vertex",
+  "model": "veo-3.0-fast-generate-001",
+  "to": "veo-3.1-fast-generate-001",
+  "effective": "2026-06-30",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "vertex"
+}

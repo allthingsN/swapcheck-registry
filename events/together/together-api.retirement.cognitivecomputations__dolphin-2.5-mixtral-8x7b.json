@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.cognitivecomputations__dolphin-2.5-mixtral-8x7b",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "cognitivecomputations/dolphin-2.5-mixtral-8x7b",
+  "effective": "2024-08-22",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

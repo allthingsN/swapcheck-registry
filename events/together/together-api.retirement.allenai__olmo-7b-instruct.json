@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.allenai__olmo-7b-instruct",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "allenai/OLMo-7B-Instruct",
+  "effective": "2024-08-22",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

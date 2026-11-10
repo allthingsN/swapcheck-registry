@@ -1,0 +1,16 @@
+{
+  "id": "deepseek-api.alias_move.deepseek-flash.2026-10-17",
+  "type": "alias_move",
+  "provider": "deepseek",
+  "route": "deepseek-api",
+  "model": "deepseek-flash",
+  "to": "DeepSeek-V4.1-Flash-1017",
+  "effective": "2026-10-17",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://api-docs.deepseek.com/updates",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "deepseek"
+}

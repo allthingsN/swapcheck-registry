@@ -1,0 +1,17 @@
+{
+  "id": "openai-api.retirement.ft..gpt-4o-mini-2024-07-18",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "ft:gpt-4o-mini-2024-07-18",
+  "to": "gpt-6-luna",
+  "effective": "2027-01-14",
+  "date_precision": "estimated",
+  "successor_basis": "inferred",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "litellm"
+}

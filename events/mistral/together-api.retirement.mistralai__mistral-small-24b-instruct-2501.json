@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.mistralai__mistral-small-24b-instruct-2501",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "together-api",
+  "model": "mistralai/Mistral-Small-24B-Instruct-2501",
+  "effective": "2026-04-02",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

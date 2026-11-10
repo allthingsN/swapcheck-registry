@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.meta-llama__llama-3.2-1b-instruct",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "openrouter",
+  "model": "meta-llama/llama-3.2-1b-instruct",
+  "effective": "2026-11-20",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openrouter"
+}

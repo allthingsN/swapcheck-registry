@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio.retirement.gemini-2.0-flash-preview-image-generation",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-2.0-flash-preview-image-generation",
+  "to": "gemini-nano-banana-2.1",
+  "effective": "2025-11-14",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

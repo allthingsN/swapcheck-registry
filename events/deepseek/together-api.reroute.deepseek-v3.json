@@ -1,0 +1,16 @@
+{
+  "id": "together-api.reroute.deepseek-v3",
+  "type": "reroute",
+  "provider": "deepseek",
+  "route": "together-api",
+  "model": "DeepSeek-V3",
+  "to": "DeepSeek-V3.1",
+  "billing": "unknown",
+  "successor_basis": "provider_named",
+  "notes": "Listed as an active redirect; the page does not give the date it began.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

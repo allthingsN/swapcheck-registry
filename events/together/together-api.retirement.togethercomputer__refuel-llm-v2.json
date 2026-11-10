@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.togethercomputer__refuel-llm-v2",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "togethercomputer/Refuel-Llm-V2",
+  "effective": "2026-02-06",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

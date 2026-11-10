@@ -1,0 +1,14 @@
+{
+  "id": "anthropic-api.retirement.claude-mythos-preview",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "anthropic-api",
+  "model": "claude-mythos-preview",
+  "successor_basis": "none",
+  "notes": "Deprecated with a retirement date still to be announced.",
+  "source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "anthropic"
+}

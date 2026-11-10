@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.retirement.eu.anthropic.claude-sonnet-4-5-20250929-v1..0",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "aws-bedrock",
+  "model": "eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "effective": "2027-04-08",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Inference profile of anthropic.claude-sonnet-4-5-20250929-v1:0. AWS publishes the date for the base model; applying it to this profile is inferred, and profile coverage can differ by region.",
+  "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "bedrock"
+}

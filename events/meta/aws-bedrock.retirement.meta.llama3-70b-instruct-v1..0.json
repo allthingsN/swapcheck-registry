@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.retirement.meta.llama3-70b-instruct-v1..0",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "aws-bedrock",
+  "model": "meta.llama3-70b-instruct-v1:0",
+  "effective": "2027-03-30",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Amazon Bedrock schedule; dates are specific to this route. Dates differ by region: ap-south-1, ca-central-1, eu-west-2, us-east-1, us-west-2 on 2027-03-30; us-gov-west-1 on 2027-05-09. The earliest is shown.",
+  "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "bedrock"
+}

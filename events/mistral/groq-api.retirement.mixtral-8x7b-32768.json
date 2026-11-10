@@ -1,0 +1,15 @@
+{
+  "id": "groq-api.retirement.mixtral-8x7b-32768",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "groq-api",
+  "model": "mixtral-8x7b-32768",
+  "effective": "2025-03-20",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

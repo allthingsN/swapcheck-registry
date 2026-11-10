@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio.retirement.gemini-3-pro-preview",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-3-pro-preview",
+  "to": "gemini-3.1-pro-preview",
+  "effective": "2026-03-09",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

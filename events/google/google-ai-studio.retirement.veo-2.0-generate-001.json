@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio.retirement.veo-2.0-generate-001",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "veo-2.0-generate-001",
+  "to": "gemini-omni-1.2-flash",
+  "effective": "2026-06-30",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.llama-4-maverick-17b-128e-instruct-fp8.v-",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "azure-foundry",
+  "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "effective": "2026-11-19",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: GA. Azure version —.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.togethercomputer__llama-2-7b-32k-instruct",
+  "type": "retirement",
+  "provider": "meta",
+  "route": "together-api",
+  "model": "togethercomputer/LLaMA-2-7B-32K-Instruct",
+  "effective": "2024-08-22",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

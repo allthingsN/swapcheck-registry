@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.moonshotai__kimi-k2.5",
+  "type": "retirement",
+  "provider": "moonshot",
+  "route": "together-api",
+  "model": "moonshotai/Kimi-K2.5",
+  "effective": "2026-05-21",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-api.retirement.gpt-image-1",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "gpt-image-1",
+  "to": "gpt-image-2.5-sunburst",
+  "effective": "2026-10-23",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "The provider also names: gpt-image-2.5-flare.",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

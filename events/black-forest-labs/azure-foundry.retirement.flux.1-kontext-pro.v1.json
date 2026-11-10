@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.flux.1-kontext-pro.v1",
+  "type": "retirement",
+  "provider": "black-forest-labs",
+  "route": "azure-foundry",
+  "model": "FLUX.1-Kontext-pro",
+  "effective": "2027-01-05",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: GA. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

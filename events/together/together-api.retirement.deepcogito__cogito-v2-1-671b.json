@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.deepcogito__cogito-v2-1-671b",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "deepcogito/cogito-v2-1-671b",
+  "effective": "2026-08-21",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

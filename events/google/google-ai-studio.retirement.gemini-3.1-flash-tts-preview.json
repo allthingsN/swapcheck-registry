@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio.retirement.gemini-3.1-flash-tts-preview",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-3.1-flash-tts-preview",
+  "to": "gemini-3.8-flash-tts",
+  "effective": "2026-11-17",
+  "date_precision": "earliest_possible",
+  "successor_basis": "provider_named",
+  "notes": "The provider also names: gemini-3.8-flash-lite-tts.",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

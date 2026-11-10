@@ -1,0 +1,16 @@
+{
+  "id": "openai-api.retirement.text-search-curie-query-001",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "text-search-curie-query-001",
+  "to": "text-embedding-3-small",
+  "effective": "2024-01-04",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

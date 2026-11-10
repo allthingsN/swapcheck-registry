@@ -1,0 +1,17 @@
+{
+  "id": "anthropic-api.retirement.claude-sonnet-4-5",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "anthropic-api",
+  "model": "claude-sonnet-4-5",
+  "to": "claude-sonnet-5-5",
+  "effective": "2026-11-30",
+  "date_precision": "estimated",
+  "successor_basis": "inferred",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "litellm"
+}

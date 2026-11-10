@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.hazyresearch__m2-bert-2k-retrieval-encoder-v1",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "hazyresearch/M2-BERT-2k-Retrieval-Encoder-V1",
+  "effective": "2024-08-22",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

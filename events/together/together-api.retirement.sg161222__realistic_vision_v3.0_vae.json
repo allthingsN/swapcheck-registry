@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.sg161222__realistic_vision_v3.0_vae",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "SG161222/Realistic_Vision_V3.0_VAE",
+  "effective": "2024-08-22",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

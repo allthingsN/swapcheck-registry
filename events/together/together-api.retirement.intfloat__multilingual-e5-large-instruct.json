@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.intfloat__multilingual-e5-large-instruct",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "intfloat/multilingual-e5-large-instruct",
+  "effective": "2026-09-15",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

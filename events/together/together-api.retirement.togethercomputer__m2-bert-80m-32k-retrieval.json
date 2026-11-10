@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.togethercomputer__m2-bert-80m-32k-retrieval",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "togethercomputer/m2-bert-80M-32k-retrieval",
+  "effective": "2026-02-06",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

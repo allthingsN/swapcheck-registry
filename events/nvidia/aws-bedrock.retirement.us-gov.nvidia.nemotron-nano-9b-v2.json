@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.retirement.us-gov.nvidia.nemotron-nano-9b-v2",
+  "type": "retirement",
+  "provider": "nvidia",
+  "route": "aws-bedrock",
+  "model": "us-gov.nvidia.nemotron-nano-9b-v2",
+  "effective": "2027-03-30",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "litellm"
+}

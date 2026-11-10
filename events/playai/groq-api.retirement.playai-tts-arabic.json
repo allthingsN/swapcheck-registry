@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.playai-tts-arabic",
+  "type": "retirement",
+  "provider": "playai",
+  "route": "groq-api",
+  "model": "playai-tts-arabic",
+  "to": "canopylabs/orpheus-arabic-saudi",
+  "effective": "2025-12-31",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

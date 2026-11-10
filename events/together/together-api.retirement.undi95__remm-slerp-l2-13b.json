@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.undi95__remm-slerp-l2-13b",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "Undi95/ReMM-SLERP-L2-13B",
+  "effective": "2024-08-22",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

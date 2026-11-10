@@ -1,0 +1,16 @@
+{
+  "id": "google-vertex.retirement.textembedding-gecko-multilingual_at_001",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-vertex",
+  "model": "textembedding-gecko-multilingual@001",
+  "to": "gemini-embedding-001",
+  "effective": "2025-05-24",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "vertex"
+}

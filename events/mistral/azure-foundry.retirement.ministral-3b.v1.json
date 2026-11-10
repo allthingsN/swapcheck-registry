@@ -1,0 +1,17 @@
+{
+  "id": "azure-foundry.retirement.ministral-3b.v1",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "azure-foundry",
+  "model": "Ministral-3B",
+  "to": "ministral-ministral-4b-instruct",
+  "effective": "2026-12-09",
+  "date_precision": "estimated",
+  "successor_basis": "provider_named",
+  "notes": "Azure lifecycle stage: GA. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "groq-api.retirement.groq__compound-mini",
+  "type": "retirement",
+  "provider": "groq",
+  "route": "groq-api",
+  "model": "groq/compound-mini",
+  "effective": "2026-09-21",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}

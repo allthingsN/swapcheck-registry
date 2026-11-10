@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.zai-org__glm-4.7",
+  "type": "retirement",
+  "provider": "zhipu",
+  "route": "together-api",
+  "model": "zai-org/GLM-4.7",
+  "effective": "2026-04-02",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Removed from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "together"
+}

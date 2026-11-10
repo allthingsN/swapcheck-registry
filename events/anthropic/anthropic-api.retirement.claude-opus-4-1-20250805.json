@@ -1,0 +1,17 @@
+{
+  "id": "anthropic-api.retirement.claude-opus-4-1-20250805",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "anthropic-api",
+  "model": "claude-opus-4-1-20250805",
+  "to": "claude-opus-4-8",
+  "effective": "2026-08-05",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Deprecated 2026-06-05.",
+  "source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "anthropic"
+}

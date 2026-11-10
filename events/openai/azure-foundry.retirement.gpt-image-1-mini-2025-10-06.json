@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.gpt-image-1-mini-2025-10-06",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "azure-foundry",
+  "model": "gpt-image-1-mini-2025-10-06",
+  "effective": "2027-04-07",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: GA.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

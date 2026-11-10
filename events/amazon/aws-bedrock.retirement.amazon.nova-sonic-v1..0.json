@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.retirement.amazon.nova-sonic-v1..0",
+  "type": "retirement",
+  "provider": "amazon",
+  "route": "aws-bedrock",
+  "model": "amazon.nova-sonic-v1:0",
+  "effective": "2026-09-14",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Listed as end of life on Amazon Bedrock.",
+  "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "bedrock"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.retirement.anthropic.claude-3-sonnet-20240229-v1..0",
+  "type": "retirement",
+  "provider": "anthropic",
+  "route": "aws-bedrock",
+  "model": "anthropic.claude-3-sonnet-20240229-v1:0",
+  "effective": "2026-11-13",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "notes": "Amazon Bedrock schedule; dates are specific to this route. Dates differ by region: ap-south-1, ap-southeast-1, eu-west-2 on 2026-11-13; sa-east-1 on 2026-11-13; ca-central-1 on 2026-11-27. The earliest is shown.",
+  "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "bedrock"
+}

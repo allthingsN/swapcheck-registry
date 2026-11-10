@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio.reroute.gemini-3.7-flash",
+  "type": "reroute",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-3.7-flash",
+  "to": "gemini-3.8-flash",
+  "billing": "unknown",
+  "successor_basis": "provider_named",
+  "notes": "The provider's page says requests already route to the replacement; it does not give the date this began.",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "gemini"
+}

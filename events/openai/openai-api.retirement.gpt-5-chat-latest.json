@@ -1,0 +1,16 @@
+{
+  "id": "openai-api.retirement.gpt-5-chat-latest",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "gpt-5-chat-latest",
+  "to": "gpt-5.6-sol",
+  "effective": "2026-07-23",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://developers.openai.com/api/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "openai"
+}

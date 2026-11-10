@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.kimi-k3.1-pro-2026-11-04",
+  "type": "retirement",
+  "provider": "moonshot",
+  "route": "azure-foundry",
+  "model": "Kimi-K3.1-Pro-2026-11-04",
+  "effective": "2027-11-04",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: GA.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "azure"
+}

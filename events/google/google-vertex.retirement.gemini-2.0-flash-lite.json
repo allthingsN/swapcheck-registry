@@ -1,0 +1,16 @@
+{
+  "id": "google-vertex.retirement.gemini-2.0-flash-lite",
+  "type": "retirement",
+  "provider": "google",
+  "route": "google-vertex",
+  "model": "gemini-2.0-flash-lite",
+  "to": "gemini-3.5-flash-lite",
+  "effective": "2026-06-01",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "vertex"
+}

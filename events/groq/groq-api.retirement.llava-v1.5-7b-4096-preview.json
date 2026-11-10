@@ -1,0 +1,16 @@
+{
+  "id": "groq-api.retirement.llava-v1.5-7b-4096-preview",
+  "type": "retirement",
+  "provider": "groq",
+  "route": "groq-api",
+  "model": "llava-v1.5-7b-4096-preview",
+  "to": "llama-3.2-11b-vision-preview",
+  "effective": "2024-10-28",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "source": "https://console.groq.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-10",
+  "last_verified": "2026-11-10",
+  "origin": "groq"
+}
