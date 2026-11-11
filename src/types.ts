@@ -14,6 +14,11 @@ export type EventType =
 export type Confidence = "high" | "medium" | "low";
 export type DatePrecision = "exact" | "earliest_possible" | "estimated";
 
+export interface RegionDate {
+  regions: string[];
+  effective: string;
+}
+
 export interface RegistryEvent {
   id: string;
   type: EventType;
@@ -26,6 +31,11 @@ export interface RegistryEvent {
   billing?: "replacement_rates" | "unchanged" | "unknown";
   successor_basis?: "provider_named" | "inferred" | "none";
   params?: string[];
+  /**
+   * Set when the change only covers some regions, as on Amazon Bedrock. `effective` is then the earliest row's date.
+   * A region not listed has no announced change.
+   */
+  region_schedule?: RegionDate[];
   source: string;
   confidence: Confidence;
   first_seen: string;
@@ -94,6 +104,7 @@ export interface Candidate {
   billing?: RegistryEvent["billing"];
   successor_basis?: RegistryEvent["successor_basis"];
   params?: string[];
+  region_schedule?: RegionDate[];
   source: string;
   notes?: string;
   /** Distinguishes otherwise identical events, e.g. an Azure version. */

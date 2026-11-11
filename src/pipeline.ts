@@ -139,7 +139,7 @@ function stripInternal(o: Observed): Candidate {
 }
 
 /** Fields whose change is an amendment. `last_verified` and bookkeeping are excluded. */
-const MATERIAL_FIELDS = ["type", "provider", "route", "model", "to", "effective", "date_precision", "billing", "successor_basis", "params", "source", "confidence", "report_url", "notes"] as const;
+const MATERIAL_FIELDS = ["type", "provider", "route", "model", "to", "effective", "date_precision", "billing", "successor_basis", "params", "region_schedule", "source", "confidence", "report_url", "notes"] as const;
 
 export interface MergeResult {
   events: StoredEvent[];
@@ -211,32 +211,59 @@ function optional(c: Candidate): Partial<RegistryEvent> {
   if (c.billing) o.billing = c.billing;
   if (c.successor_basis) o.successor_basis = c.successor_basis;
   if (c.params) o.params = c.params;
+  if (c.region_schedule) o.region_schedule = c.region_schedule;
   if (c.notes) o.notes = c.notes;
   return o;
 }
 
 const BEDROCK_PROFILE = /^(us-gov|us|eu|au|apac|jp|in|ca|sa|global)\./;
 
+/** Regions a geographic inference profile routes to. `global` reaches every region, so it has no filter. */
+const PROFILE_REGIONS: Record<string, RegExp | undefined> = {
+  "us-gov": /^us-gov-/,
+  us: /^us-(?:east|west)-\d$/,
+  eu: /^eu-/,
+  au: /^ap-southeast-[24]$/,
+  apac: /^ap-/,
+  jp: /^ap-northeast-[13]$/,
+  in: /^ap-south-[12]$/,
+  ca: /^ca-/,
+  sa: /^sa-/,
+  global: undefined,
+};
+
+/** Keeps only the schedule rows a profile can reach; null when the change does not reach it at all. */
+function profileCandidate(base: Candidate, profile: string, geo: string): Candidate | null {
+  const reach = PROFILE_REGIONS[geo];
+  if (!reach || !base.region_schedule) return { ...base, model: profile };
+  const rows = base.region_schedule.filter((row) => row.regions.some((region) => reach.test(region)));
+  if (!rows.length) return null;
+  const regions = rows.map((row) => ({ regions: row.regions.filter((region) => reach.test(region)), effective: row.effective }));
+  return { ...base, model: profile, region_schedule: regions, effective: regions.map((row) => row.effective).sort()[0] };
+}
+
 /**
  * AWS publishes EOL dates on base model IDs, while most callers use inference-profile IDs
  * (for example `us.anthropic...`). Those need a warning too, marked low because the mapping is inferred.
  */
 export function bedrockProfileEvents(events: Consolidated[], modelIds: string[]): Consolidated[] {
-  const profilesByBase = new Map<string, string[]>();
+  const profilesByBase = new Map<string, Array<{ id: string; geo: string }>>();
   for (const id of modelIds) {
     const m = BEDROCK_PROFILE.exec(id);
     if (!m) continue;
     const base = id.slice(m[0].length);
     if (!profilesByBase.has(base)) profilesByBase.set(base, []);
-    profilesByBase.get(base)!.push(id);
+    profilesByBase.get(base)!.push({ id, geo: m[1] });
   }
   const out: Consolidated[] = [];
   for (const e of events) {
     if (e.candidate.route !== "aws-bedrock" || e.candidate.type !== "retirement" || e.confidence !== "high") continue;
-    for (const profile of profilesByBase.get(e.candidate.model) ?? []) {
+    for (const { id: profile, geo } of profilesByBase.get(e.candidate.model) ?? []) {
+      const reached = profileCandidate(e.candidate, profile, geo);
+      // A retirement listed only for regions this profile never routes to does not affect it.
+      if (!reached) continue;
       const candidate: Candidate = {
-        ...e.candidate,
-        model: profile,
+        ...reached,
         notes: `Inference profile of ${e.candidate.model}. AWS publishes the date for the base model; applying it to this profile is inferred, and profile coverage can differ by region.`,
       };
       out.push({ candidate, id: eventId(candidate), confidence: "low", origin: e.origin });
@@ -328,6 +355,11 @@ export function validateSnapshot(s: RegistrySnapshot): string[] {
     if (!ISO_DATE.test(e.first_seen) || !ISO_DATE.test(e.last_verified)) problems.push(`${e.id}: bad first_seen or last_verified`);
     if (e.type === "parameter_change" && !e.params?.length) problems.push(`${e.id}: parameter_change without params`);
     if (e.effective && !e.date_precision) problems.push(`${e.id}: effective date without precision`);
+    if (e.region_schedule) {
+      const rows = e.region_schedule;
+      if (!rows.length || rows.some((row) => !row.regions.length || !ISO_DATE.test(row.effective))) problems.push(`${e.id}: bad region_schedule`);
+      else if (e.effective !== rows.map((row) => row.effective).sort()[0]) problems.push(`${e.id}: effective is not the earliest region date`);
+    }
   }
   const models = new Set<string>();
   for (const m of s.models) {

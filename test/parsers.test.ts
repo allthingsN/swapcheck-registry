@@ -118,6 +118,11 @@ test("Bedrock: a separate schedule from Anthropic's, with region dates and exten
   const haiku = find(r, "retirement", "anthropic.claude-3-haiku-20240307-v1:0");
   assert.equal(haiku.effective, "2026-11-13", "earliest region date");
   assert.match(haiku.notes!, /differ by region/);
+  assert.deepEqual(haiku.region_schedule?.map((row) => row.effective), ["2026-11-13", "2026-11-13", "2026-11-27"]);
+  assert.deepEqual(haiku.region_schedule?.[2]?.regions, ["ca-central-1"]);
+  const sonnet37 = find(r, "retirement", "anthropic.claude-3-7-sonnet-20250219-v1:0");
+  assert.deepEqual(sonnet37.region_schedule, [{ regions: ["ap-south-1", "eu-west-2"], effective: "2026-11-13" }], "a single-row item keeps its regions");
+  assert.ok(sonnet.region_schedule?.some((row) => row.regions.includes("us-west-2")));
   assert.ok(r.candidates.some((c) => c.model === "deepseek.v3.1"), "both IDs in a cell are kept");
   assert.ok(!r.candidates.some((c) => /[()\s]/.test(c.model)));
 });

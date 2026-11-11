@@ -219,6 +219,36 @@ test("Bedrock inference profiles inherit dates at low confidence", () => {
   assert.ok(profiles.every((p) => p.confidence === "low" && p.candidate.notes?.includes("inferred")));
 });
 
+test("Bedrock inference profiles only inherit region dates they can reach", () => {
+  const regional = observed({
+    route: "aws-bedrock",
+    model: "anthropic.y-v1:0",
+    sourceId: "bedrock",
+    effective: "2026-11-13",
+    region_schedule: [
+      { regions: ["ap-south-1", "eu-west-2"], effective: "2026-11-13" },
+      { regions: ["us-west-2"], effective: "2027-02-01" },
+    ],
+  });
+  const onlyAsia = observed({ route: "aws-bedrock", model: "anthropic.z-v1:0", sourceId: "bedrock", effective: "2026-11-13", region_schedule: [{ regions: ["ap-south-1"], effective: "2026-11-13" }] });
+  const { events } = consolidate([regional, onlyAsia], TODAY);
+  const profiles = bedrockProfileEvents(events, ["us.anthropic.y-v1:0", "eu.anthropic.y-v1:0", "global.anthropic.y-v1:0", "us.anthropic.z-v1:0", "apac.anthropic.z-v1:0"]);
+  const byModel = new Map(profiles.map((p) => [p.candidate.model, p.candidate]));
+  assert.equal(byModel.get("us.anthropic.y-v1:0")?.effective, "2027-02-01", "the US profile gets the US date, not Asia's");
+  assert.deepEqual(byModel.get("us.anthropic.y-v1:0")?.region_schedule, [{ regions: ["us-west-2"], effective: "2027-02-01" }]);
+  assert.equal(byModel.get("eu.anthropic.y-v1:0")?.effective, "2026-11-13");
+  assert.equal(byModel.get("global.anthropic.y-v1:0")?.effective, "2026-11-13", "a global profile can reach every region");
+  assert.ok(!byModel.has("us.anthropic.z-v1:0"), "a retirement only in Asia does not reach the US profile");
+  assert.equal(byModel.get("apac.anthropic.z-v1:0")?.effective, "2026-11-13");
+});
+
+test("validateSnapshot checks region schedules", () => {
+  const good = stored({ effective: "2026-11-13", region_schedule: [{ regions: ["ap-south-1"], effective: "2026-11-13" }] });
+  assert.deepEqual(validateSnapshot(snapshot([good], [model({})])), []);
+  const late = stored({ effective: "2026-12-01", region_schedule: [{ regions: ["ap-south-1"], effective: "2026-11-13" }] });
+  assert.ok(validateSnapshot(snapshot([late], [model({})])).some((p) => p.includes("earliest region date")));
+});
+
 test("model diffs produce price and capability events", () => {
   const prev = snapshot([], [model({})]);
   const { candidates, changed } = diffModels(prev, [model({ cost: { input: 2, output: 2 }, capabilities: { ...model({}).capabilities, vision: true } })], TODAY);

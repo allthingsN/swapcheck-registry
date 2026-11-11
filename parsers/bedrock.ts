@@ -1,7 +1,7 @@
 import { isModelId, mdSections, normalizeSpace, parseDate } from "../src/lib/text.ts";
 import { vendorFromName } from "../src/lib/vendor.ts";
 import { ParseMismatchError } from "../src/types.ts";
-import type { Candidate, SourceDef } from "../src/types.ts";
+import type { Candidate, RegionDate, SourceDef } from "../src/types.ts";
 
 const PAGE = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html";
 const ROUTE = "aws-bedrock";
@@ -65,6 +65,16 @@ function earliest(dates: Array<string | null>): string | undefined {
   return dates.filter((d): d is string => !!d).sort()[0];
 }
 
+const REGION = /^[a-z]{2}(?:-gov)?-[a-z]+-\d$/;
+
+/** The rows' regions with their dates, or undefined when any dated row lacks a readable region list. */
+function regionSchedule(rows: Item["regionRows"], pick: (row: Item["regionRows"][number]) => string | null): RegionDate[] | undefined {
+  const dated = rows.filter((row) => pick(row));
+  const schedule = dated.map((row) => ({ regions: row.regions.split(",").map((r) => r.trim()).filter(Boolean), effective: pick(row) as string }));
+  if (!schedule.length || schedule.some((row) => !row.regions.length || !row.regions.every((r) => REGION.test(r)))) return undefined;
+  return schedule;
+}
+
 export const bedrock: SourceDef = {
   id: "bedrock",
   kind: "primary",
@@ -88,6 +98,8 @@ export const bedrock: SourceDef = {
       const provider = vendorFromName(item.provider, item.provider.toLowerCase().replace(/[^a-z0-9]+/g, "-"));
       const effective = earliest(item.regionRows.map((r) => r.eol));
       const distinctDates = new Set(item.regionRows.map((r) => r.eol));
+      const eolSchedule = regionSchedule(item.regionRows, (r) => r.eol);
+      const extendedSchedule = regionSchedule(item.regionRows, (r) => r.extended);
       for (const model of item.ids) {
         out.push({
           type: "retirement",
@@ -95,6 +107,7 @@ export const bedrock: SourceDef = {
           route: ROUTE,
           model,
           effective,
+          ...(eolSchedule ? { region_schedule: eolSchedule } : {}),
           date_precision: "exact",
           successor_basis: "none",
           source: PAGE,
@@ -112,6 +125,7 @@ export const bedrock: SourceDef = {
             route: ROUTE,
             model,
             effective: extended,
+            ...(extendedSchedule ? { region_schedule: extendedSchedule } : {}),
             date_precision: "exact",
             billing: "unknown",
             source: PAGE,
