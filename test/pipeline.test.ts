@@ -212,6 +212,15 @@ test("status: only an exact past date retires a model; a passed floor does not",
   assert.deepEqual(out.map((m) => m.status), ["retired", "deprecated", "deprecated", "active"]);
 });
 
+test("status: a retirement in some regions only does not retire the model while other regions remain", () => {
+  const events = [
+    stored({ id: "a", model: "partly", effective: "2026-01-01", region_schedule: [{ regions: ["ap-south-1"], effective: "2026-01-01" }, { regions: ["us-west-2"], effective: "2027-01-01" }] }),
+    stored({ id: "b", model: "everywhere", effective: "2026-01-01", region_schedule: [{ regions: ["ap-south-1"], effective: "2026-01-01" }] }),
+  ];
+  const out = applyStatus([model({ id: "partly" }), model({ id: "everywhere" })], events, TODAY);
+  assert.deepEqual(out.map((m) => m.status), ["deprecated", "retired"]);
+});
+
 test("Bedrock inference profiles inherit dates at low confidence", () => {
   const { events } = consolidate([observed({ route: "aws-bedrock", model: "anthropic.x-v1:0", sourceId: "bedrock" })], TODAY);
   const profiles = bedrockProfileEvents(events, ["us.anthropic.x-v1:0", "global.anthropic.x-v1:0", "anthropic.x-v1:0", "us.other"]);

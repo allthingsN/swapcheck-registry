@@ -284,7 +284,9 @@ export function applyStatus(models: RegistryModel[], events: StoredEvent[], toda
   return models.map((m) => {
     const list = relevant.get(`${m.route}\u0000${m.id}`);
     if (!list) return m;
-    const retiredNow = list.some((e) => e.type === "retirement" && e.confidence === "high" && e.date_precision === "exact" && !!e.effective && e.effective <= today);
+    // A region-limited retirement only retires the model once every listed region's date has passed.
+    const passed = (e: StoredEvent) => (e.region_schedule ? e.region_schedule.every((row) => row.effective <= today) : !!e.effective && e.effective <= today);
+    const retiredNow = list.some((e) => e.type === "retirement" && e.confidence === "high" && e.date_precision === "exact" && passed(e));
     return { ...m, status: retiredNow ? "retired" : "deprecated" };
   });
 }
