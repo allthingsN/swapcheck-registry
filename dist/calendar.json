@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-11-11T06:41:02.854Z",
+  "generated_at": "2026-11-11T19:42:35.486Z",
   "entries": [
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.capability_change.inclusionai__ling-3.1-flash.2026-11-11",
+      "type": "capability_change",
+      "provider": "inclusionai",
+      "route": "openrouter",
+      "model": "inclusionai/ling-3.1-flash",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-11-11",
       "date_precision": "estimated",
@@ -26,6 +37,17 @@
     {
       "date": "2026-11-11",
       "date_precision": "estimated",
+      "event_id": "openrouter.price_change.deepseek__deepseek-v4-pro.2026-11-11",
+      "type": "price_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "deepseek/deepseek-v4-pro",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
       "event_id": "openrouter.price_change.deepseek__deepseek-v4.1-flash.2026-11-11",
       "type": "price_change",
       "provider": "deepseek",
@@ -37,11 +59,33 @@
     {
       "date": "2026-11-11",
       "date_precision": "estimated",
+      "event_id": "openrouter.price_change.google__gemma-3-27b-it.2026-11-11",
+      "type": "price_change",
+      "provider": "google",
+      "route": "openrouter",
+      "model": "google/gemma-3-27b-it",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
       "event_id": "openrouter.price_change.mancer__weaver.2026-11-11",
       "type": "price_change",
       "provider": "mancer",
       "route": "openrouter",
       "model": "mancer/weaver",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.minimax__minimax-m2.5.2026-11-11",
+      "type": "price_change",
+      "provider": "minimax",
+      "route": "openrouter",
+      "model": "minimax/minimax-m2.5",
       "confidence": "high",
       "source": "https://openrouter.ai/api/v1/models"
     },
@@ -896,6 +940,138 @@
       "to": "gpt-5.6-sol",
       "confidence": "high",
       "source": "https://developers.openai.com/api/docs/deprecations"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-image",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-image",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-mini",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-mini",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-mini..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-mini:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-nano",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-nano",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-nano..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-nano:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-pro",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-pro",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-pro..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-pro:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__o3",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/o3",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__o3-pro",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/o3-pro",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__o3..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/o3:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
     },
     {
       "date": "2026-12-13",

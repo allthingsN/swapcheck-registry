@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.openai__gpt-5",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openrouter",
+  "model": "openai/gpt-5",
+  "effective": "2026-12-11",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-11",
+  "last_verified": "2026-11-11",
+  "origin": "openrouter"
+}

@@ -7,11 +7,18 @@
   "effective": "2026-11-11",
   "date_precision": "estimated",
   "billing": "unknown",
-  "notes": "Input 0.075 to 0.15, output 0.3 to 0.6 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "notes": "Input 0.15 to 0.075, output 0.6 to 0.3 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
   "source": "https://openrouter.ai/api/v1/models",
   "confidence": "high",
   "first_seen": "2026-11-11",
   "last_verified": "2026-11-11",
   "origin": "openrouter",
-  "not_listed_since": "2026-11-11"
+  "history": [
+    {
+      "amended_at": "2026-11-11",
+      "previous": {
+        "notes": "Input 0.075 to 0.15, output 0.3 to 0.6 USD per million tokens, observed in https://openrouter.ai/api/v1/models."
+      }
+    }
+  ]
 }
