@@ -39,8 +39,19 @@ export function normalizeSpace(s: string): string {
   return s.replace(/\s+/g, " ").trim();
 }
 
+/** Removes tags until none are left, so nested input such as `<scr<script>ipt>` cannot leave a tag behind. */
+function removeTags(s: string): string {
+  let out = s;
+  for (let previous = ""; previous !== out; ) {
+    previous = out;
+    out = out.replace(/<[^<>]*>/g, "");
+  }
+  return out;
+}
+
+/** Plain text from HTML. Entities are decoded last, and any tag they spell out is removed too. */
 export function stripTags(s: string): string {
-  return decodeEntities(s.replace(/<[^>]+>/g, ""));
+  return removeTags(decodeEntities(removeTags(s)));
 }
 
 export function decodeEntities(s: string): string {

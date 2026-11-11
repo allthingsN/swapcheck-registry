@@ -227,3 +227,11 @@ test("deprecations.info: maps known providers and skips Azure rows it cannot ver
   assert.ok(r.candidates.length > 100);
   assert.ok(!r.candidates.some((c) => c.route === "azure-foundry"));
 });
+
+test("stripTags leaves no tag behind, even nested or entity-encoded", async () => {
+  const { stripTags } = await import("../src/lib/text.ts");
+  assert.equal(stripTags("<p>Claude <b>3.7</b></p>"), "Claude 3.7");
+  assert.doesNotMatch(stripTags("<scr<script>ipt>alert(1)</script>"), /<script/i);
+  assert.doesNotMatch(stripTags("&lt;script&gt;alert(1)&lt;/script&gt;"), /<script/i);
+  assert.equal(stripTags("a &amp; b"), "a & b");
+});
