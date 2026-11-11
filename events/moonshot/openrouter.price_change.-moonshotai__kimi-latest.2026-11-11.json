@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.-moonshotai__kimi-latest.2026-11-11",
+  "type": "price_change",
+  "provider": "moonshot",
+  "route": "openrouter",
+  "model": "~moonshotai/kimi-latest",
+  "effective": "2026-11-11",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.1824 to 0.1824, output 9.3388 to 11.0055 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-11",
+  "last_verified": "2026-11-11",
+  "origin": "openrouter"
+}

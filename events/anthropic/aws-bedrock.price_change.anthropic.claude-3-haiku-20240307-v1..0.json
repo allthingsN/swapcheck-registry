@@ -7,10 +7,41 @@
   "effective": "2026-10-10",
   "date_precision": "exact",
   "billing": "unknown",
+  "region_schedule": [
+    {
+      "regions": [
+        "ap-northeast-2",
+        "ap-south-1",
+        "ap-southeast-1"
+      ],
+      "effective": "2026-10-10"
+    },
+    {
+      "regions": [
+        "eu-central-2",
+        "sa-east-1"
+      ],
+      "effective": "2026-10-13"
+    },
+    {
+      "regions": [
+        "ca-central-1"
+      ],
+      "effective": "2026-10-15"
+    }
+  ],
   "notes": "Start of public extended access. AWS says to expect higher pricing set by the model provider and does not publish the amount on this page.",
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
   "confidence": "high",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "bedrock"
+  "last_verified": "2026-11-11",
+  "origin": "bedrock",
+  "history": [
+    {
+      "amended_at": "2026-11-11",
+      "previous": {
+        "region_schedule": null
+      }
+    }
+  ]
 }

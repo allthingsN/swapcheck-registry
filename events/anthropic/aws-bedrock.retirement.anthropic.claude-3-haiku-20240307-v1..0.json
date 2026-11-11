@@ -7,10 +7,41 @@
   "effective": "2026-11-13",
   "date_precision": "exact",
   "successor_basis": "none",
+  "region_schedule": [
+    {
+      "regions": [
+        "ap-northeast-2",
+        "ap-south-1",
+        "ap-southeast-1"
+      ],
+      "effective": "2026-11-13"
+    },
+    {
+      "regions": [
+        "eu-central-2",
+        "sa-east-1"
+      ],
+      "effective": "2026-11-13"
+    },
+    {
+      "regions": [
+        "ca-central-1"
+      ],
+      "effective": "2026-11-27"
+    }
+  ],
   "notes": "Amazon Bedrock schedule; dates are specific to this route. Dates differ by region: ap-northeast-2, ap-south-1, ap-southeast-1 on 2026-11-13; eu-central-2, sa-east-1 on 2026-11-13; ca-central-1 on 2026-11-27. The earliest is shown.",
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
   "confidence": "high",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "bedrock"
+  "last_verified": "2026-11-11",
+  "origin": "bedrock",
+  "history": [
+    {
+      "amended_at": "2026-11-11",
+      "previous": {
+        "region_schedule": null
+      }
+    }
+  ]
 }

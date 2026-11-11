@@ -7,10 +7,28 @@
   "effective": "2026-09-30",
   "date_precision": "exact",
   "successor_basis": "none",
+  "region_schedule": [
+    {
+      "regions": [
+        "ap-northeast-1",
+        "eu-west-1",
+        "us-east-1"
+      ],
+      "effective": "2026-09-30"
+    }
+  ],
   "notes": "Listed as end of life on Amazon Bedrock.",
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
   "confidence": "high",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "bedrock"
+  "last_verified": "2026-11-11",
+  "origin": "bedrock",
+  "history": [
+    {
+      "amended_at": "2026-11-11",
+      "previous": {
+        "region_schedule": null
+      }
+    }
+  ]
 }

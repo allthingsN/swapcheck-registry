@@ -5,13 +5,21 @@
   "route": "aws-bedrock",
   "model": "us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0",
   "to": "us-gov.anthropic.claude-sonnet-5-5",
-  "effective": "2027-04-08",
+  "effective": "2027-04-27",
   "date_precision": "estimated",
   "successor_basis": "inferred",
   "notes": "Single secondary source (litellm); not on the provider's own page.",
   "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
   "confidence": "low",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "litellm"
+  "last_verified": "2026-11-11",
+  "origin": "litellm",
+  "history": [
+    {
+      "amended_at": "2026-11-11",
+      "previous": {
+        "effective": "2027-04-08"
+      }
+    }
+  ]
 }

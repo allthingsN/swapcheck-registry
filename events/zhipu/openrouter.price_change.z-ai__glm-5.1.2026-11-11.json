@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.z-ai__glm-5.1.2026-11-11",
+  "type": "price_change",
+  "provider": "zhipu",
+  "route": "openrouter",
+  "model": "z-ai/glm-5.1",
+  "effective": "2026-11-11",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 1.4 to 1.33, output 4.4 to 4.18 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-11",
+  "last_verified": "2026-11-11",
+  "origin": "openrouter"
+}

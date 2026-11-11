@@ -1,6 +1,127 @@
 {
-  "generated_at": "2026-11-10T18:10:33.335Z",
+  "generated_at": "2026-11-11T05:55:08.830Z",
   "entries": [
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.-moonshotai__kimi-latest.2026-11-11",
+      "type": "price_change",
+      "provider": "moonshot",
+      "route": "openrouter",
+      "model": "~moonshotai/kimi-latest",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.deepseek__deepseek-v4-flash.2026-11-11",
+      "type": "price_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "deepseek/deepseek-v4-flash",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.deepseek__deepseek-v4.1-flash.2026-11-11",
+      "type": "price_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.mancer__weaver.2026-11-11",
+      "type": "price_change",
+      "provider": "mancer",
+      "route": "openrouter",
+      "model": "mancer/weaver",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.minimax__minimax-m3.1-flash.2026-11-11",
+      "type": "price_change",
+      "provider": "minimax",
+      "route": "openrouter",
+      "model": "minimax/minimax-m3.1-flash",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.tencent__hy3.2026-11-11",
+      "type": "price_change",
+      "provider": "tencent",
+      "route": "openrouter",
+      "model": "tencent/hy3",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.tencent__hy4-preview.2026-11-11",
+      "type": "price_change",
+      "provider": "tencent",
+      "route": "openrouter",
+      "model": "tencent/hy4-preview",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.undi95__remm-slerp-l2-13b.2026-11-11",
+      "type": "price_change",
+      "provider": "undi95",
+      "route": "openrouter",
+      "model": "undi95/remm-slerp-l2-13b",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.z-ai__glm-5.1.2026-11-11",
+      "type": "price_change",
+      "provider": "zhipu",
+      "route": "openrouter",
+      "model": "z-ai/glm-5.1",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.z-ai__glm-5.2.2026-11-11",
+      "type": "price_change",
+      "provider": "zhipu",
+      "route": "openrouter",
+      "model": "z-ai/glm-5.2",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-11",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.z-ai__glm-5.3-flash..batch.2026-11-11",
+      "type": "price_change",
+      "provider": "zhipu",
+      "route": "openrouter",
+      "model": "z-ai/glm-5.3-flash:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
     {
       "date": "2026-11-11",
       "date_precision": "exact",
@@ -2699,18 +2820,6 @@
     },
     {
       "date": "2027-04-08",
-      "date_precision": "estimated",
-      "event_id": "aws-bedrock.retirement.us-gov.anthropic.claude-sonnet-4-5-20250929-v1..0",
-      "type": "retirement",
-      "provider": "anthropic",
-      "route": "aws-bedrock",
-      "model": "us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0",
-      "to": "us-gov.anthropic.claude-sonnet-5-5",
-      "confidence": "low",
-      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
-    },
-    {
-      "date": "2027-04-08",
       "date_precision": "exact",
       "event_id": "aws-bedrock.retirement.us.anthropic.claude-sonnet-4-5-20250929-v1..0",
       "type": "retirement",
@@ -2840,6 +2949,18 @@
       "provider": "anthropic",
       "route": "google-vertex",
       "model": "claude-opus-4-7@default",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
+    },
+    {
+      "date": "2027-04-27",
+      "date_precision": "estimated",
+      "event_id": "aws-bedrock.retirement.us-gov.anthropic.claude-sonnet-4-5-20250929-v1..0",
+      "type": "retirement",
+      "provider": "anthropic",
+      "route": "aws-bedrock",
+      "model": "us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "to": "us-gov.anthropic.claude-sonnet-5-5",
       "confidence": "low",
       "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
