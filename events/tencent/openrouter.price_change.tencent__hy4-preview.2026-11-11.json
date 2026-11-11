@@ -12,5 +12,6 @@
   "confidence": "high",
   "first_seen": "2026-11-11",
   "last_verified": "2026-11-11",
-  "origin": "openrouter"
+  "origin": "openrouter",
+  "not_listed_since": "2026-11-11"
 }
