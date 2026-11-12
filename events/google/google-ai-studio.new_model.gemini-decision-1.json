@@ -1,0 +1,14 @@
+{
+  "id": "google-ai-studio.new_model.gemini-decision-1",
+  "type": "new_model",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-decision-1",
+  "effective": "2026-11-11",
+  "date_precision": "exact",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-12",
+  "last_verified": "2026-11-12",
+  "origin": "gemini"
+}

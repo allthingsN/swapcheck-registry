@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.tencent__hy3.2026-11-12",
+  "type": "price_change",
+  "provider": "tencent",
+  "route": "openrouter",
+  "model": "tencent/hy3",
+  "effective": "2026-11-12",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.132 to 0.0825, output 0.528 to 0.33 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-12",
+  "last_verified": "2026-11-12",
+  "origin": "openrouter"
+}

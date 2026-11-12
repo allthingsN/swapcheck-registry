@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.-google__gemini-flash-latest.2026-11-12",
+  "type": "price_change",
+  "provider": "google",
+  "route": "openrouter",
+  "model": "~google/gemini-flash-latest",
+  "effective": "2026-11-12",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.75 to 1.5, output 3.75 to 7.5 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-12",
+  "last_verified": "2026-11-12",
+  "origin": "openrouter"
+}
