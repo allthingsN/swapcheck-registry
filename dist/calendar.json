@@ -1,160 +1,6 @@
 {
-  "generated_at": "2026-11-11T06:41:02.854Z",
+  "generated_at": "2026-11-13T06:54:44.293Z",
   "entries": [
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.-moonshotai__kimi-latest.2026-11-11",
-      "type": "price_change",
-      "provider": "moonshot",
-      "route": "openrouter",
-      "model": "~moonshotai/kimi-latest",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.deepseek__deepseek-v4-flash.2026-11-11",
-      "type": "price_change",
-      "provider": "deepseek",
-      "route": "openrouter",
-      "model": "deepseek/deepseek-v4-flash",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.deepseek__deepseek-v4.1-flash.2026-11-11",
-      "type": "price_change",
-      "provider": "deepseek",
-      "route": "openrouter",
-      "model": "deepseek/deepseek-v4.1-flash",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.mancer__weaver.2026-11-11",
-      "type": "price_change",
-      "provider": "mancer",
-      "route": "openrouter",
-      "model": "mancer/weaver",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.minimax__minimax-m3.1-flash.2026-11-11",
-      "type": "price_change",
-      "provider": "minimax",
-      "route": "openrouter",
-      "model": "minimax/minimax-m3.1-flash",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.tencent__hy3.2026-11-11",
-      "type": "price_change",
-      "provider": "tencent",
-      "route": "openrouter",
-      "model": "tencent/hy3",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.tencent__hy4-preview.2026-11-11",
-      "type": "price_change",
-      "provider": "tencent",
-      "route": "openrouter",
-      "model": "tencent/hy4-preview",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.undi95__remm-slerp-l2-13b.2026-11-11",
-      "type": "price_change",
-      "provider": "undi95",
-      "route": "openrouter",
-      "model": "undi95/remm-slerp-l2-13b",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.z-ai__glm-5.1.2026-11-11",
-      "type": "price_change",
-      "provider": "zhipu",
-      "route": "openrouter",
-      "model": "z-ai/glm-5.1",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.z-ai__glm-5.2.2026-11-11",
-      "type": "price_change",
-      "provider": "zhipu",
-      "route": "openrouter",
-      "model": "z-ai/glm-5.2",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "estimated",
-      "event_id": "openrouter.price_change.z-ai__glm-5.3-flash..batch.2026-11-11",
-      "type": "price_change",
-      "provider": "zhipu",
-      "route": "openrouter",
-      "model": "z-ai/glm-5.3-flash:batch",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "exact",
-      "event_id": "openrouter.retirement.bytedance-seed__seed-1.6",
-      "type": "retirement",
-      "provider": "bytedance",
-      "route": "openrouter",
-      "model": "bytedance-seed/seed-1.6",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "exact",
-      "event_id": "openrouter.retirement.bytedance-seed__seed-1.6-flash",
-      "type": "retirement",
-      "provider": "bytedance",
-      "route": "openrouter",
-      "model": "bytedance-seed/seed-1.6-flash",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
-    {
-      "date": "2026-11-11",
-      "date_precision": "exact",
-      "event_id": "openrouter.retirement.bytedance-seed__seed-2.0-code",
-      "type": "retirement",
-      "provider": "bytedance",
-      "route": "openrouter",
-      "model": "bytedance-seed/seed-2.0-code",
-      "confidence": "high",
-      "source": "https://openrouter.ai/api/v1/models"
-    },
     {
       "date": "2026-11-13",
       "date_precision": "exact",
@@ -209,6 +55,292 @@
       "model": "anthropic.claude-3-sonnet-20240229-v1:0",
       "confidence": "high",
       "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "mistral-api.capability_change.deepseek-v4-1-flash-1017.2026-11-13",
+      "type": "capability_change",
+      "provider": "deepseek",
+      "route": "mistral-api",
+      "model": "deepseek-v4-1-flash-1017",
+      "confidence": "low",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "mistral-api.capability_change.mistral-large-latest.2026-11-13",
+      "type": "capability_change",
+      "provider": "mistral",
+      "route": "mistral-api",
+      "model": "mistral-large-latest",
+      "confidence": "low",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "mistral-api.price_change.mistral-large-latest.2026-11-13",
+      "type": "price_change",
+      "provider": "mistral",
+      "route": "mistral-api",
+      "model": "mistral-large-latest",
+      "confidence": "low",
+      "source": "https://models.dev/api.json"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.capability_change.deepseek__deepseek-v4.1-flash-1017..batch.2026-11-13",
+      "type": "capability_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.capability_change.inclusionai__ling-3.1-flash.2026-11-13",
+      "type": "capability_change",
+      "provider": "inclusionai",
+      "route": "openrouter",
+      "model": "inclusionai/ling-3.1-flash",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.capability_change.meta-llama__llama-3.1-70b-instruct.2026-11-13",
+      "type": "capability_change",
+      "provider": "meta",
+      "route": "openrouter",
+      "model": "meta-llama/llama-3.1-70b-instruct",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.-deepseek__deepseek-flash-latest.2026-11-13",
+      "type": "price_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "~deepseek/deepseek-flash-latest",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.-google__gemini-flash-latest.2026-11-13",
+      "type": "price_change",
+      "provider": "google",
+      "route": "openrouter",
+      "model": "~google/gemini-flash-latest",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.deepseek__deepseek-v4-pro.2026-11-13",
+      "type": "price_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "deepseek/deepseek-v4-pro",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.deepseek__deepseek-v4.1-flash-1017..batch.2026-11-13",
+      "type": "price_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.deepseek__deepseek-v4.1-flash-1017.2026-11-13",
+      "type": "price_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash-1017",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.deepseek__deepseek-v4.1-flash.2026-11-13",
+      "type": "price_change",
+      "provider": "deepseek",
+      "route": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.google__gemma-3-27b-it.2026-11-13",
+      "type": "price_change",
+      "provider": "google",
+      "route": "openrouter",
+      "model": "google/gemma-3-27b-it",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.google__gemma-4-26b-a4b-it.2026-11-13",
+      "type": "price_change",
+      "provider": "google",
+      "route": "openrouter",
+      "model": "google/gemma-4-26b-a4b-it",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.ibm-granite__granite-4.2-8b.2026-11-13",
+      "type": "price_change",
+      "provider": "ibm-granite",
+      "route": "openrouter",
+      "model": "ibm-granite/granite-4.2-8b",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.minimax__minimax-m2.5.2026-11-13",
+      "type": "price_change",
+      "provider": "minimax",
+      "route": "openrouter",
+      "model": "minimax/minimax-m2.5",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.moonshotai__kimi-k2.5.2026-11-13",
+      "type": "price_change",
+      "provider": "moonshot",
+      "route": "openrouter",
+      "model": "moonshotai/kimi-k2.5",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.openai__gpt-5.6-sol.2026-11-13",
+      "type": "price_change",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5.6-sol",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.qwen__qwen3-14b.2026-11-13",
+      "type": "price_change",
+      "provider": "alibaba",
+      "route": "openrouter",
+      "model": "qwen/qwen3-14b",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.qwen__qwen3.5-9b.2026-11-13",
+      "type": "price_change",
+      "provider": "alibaba",
+      "route": "openrouter",
+      "model": "qwen/qwen3.5-9b",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.ricursiveai__ripple-65b-preview.2026-11-13",
+      "type": "price_change",
+      "provider": "ricursiveai",
+      "route": "openrouter",
+      "model": "ricursiveai/ripple-65b-preview",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.xiaomi__mimo-v2.5-pro.2026-11-13",
+      "type": "price_change",
+      "provider": "xiaomi",
+      "route": "openrouter",
+      "model": "xiaomi/mimo-v2.5-pro",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.z-ai__glm-5.1.2026-11-13",
+      "type": "price_change",
+      "provider": "zhipu",
+      "route": "openrouter",
+      "model": "z-ai/glm-5.1",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.z-ai__glm-5.2..batch.2026-11-13",
+      "type": "price_change",
+      "provider": "zhipu",
+      "route": "openrouter",
+      "model": "z-ai/glm-5.2:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.z-ai__glm-5.3-flash..batch.2026-11-13",
+      "type": "price_change",
+      "provider": "zhipu",
+      "route": "openrouter",
+      "model": "z-ai/glm-5.3-flash:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-11-13",
+      "date_precision": "estimated",
+      "event_id": "openrouter.price_change.z-ai__glm-5.3.2026-11-13",
+      "type": "price_change",
+      "provider": "zhipu",
+      "route": "openrouter",
+      "model": "z-ai/glm-5.3",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
     },
     {
       "date": "2026-11-13",
@@ -638,51 +770,51 @@
     },
     {
       "date": "2026-12-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.chatgpt-image-latest",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "chatgpt-image-latest",
       "to": "gpt-image-2.6-sunburst",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-image-1-mini",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-image-1-mini",
       "to": "gpt-image-2.6-sunburst",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-image-1.5",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-image-1.5",
       "to": "gpt-image-2.6-sunburst",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-image-1.5-2025-12-16",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-image-1.5-2025-12-16",
       "to": "gpt-image-2.6-sunburst",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-01",
@@ -755,147 +887,279 @@
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5",
-      "to": "gpt-5.6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-sol",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5-2025-08-07",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5-2025-08-07",
-      "to": "gpt-5.6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-sol",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5-mini",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5-mini",
-      "to": "gpt-5.6-terra",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-terra",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5-mini-2025-08-07",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5-mini-2025-08-07",
-      "to": "gpt-5.6-terra",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-terra",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5-nano",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5-nano",
-      "to": "gpt-5.6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6-luna",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5-nano-2025-08-07",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5-nano-2025-08-07",
-      "to": "gpt-5.6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6-luna",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5-pro",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5-pro",
-      "to": "gpt-5.6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-sol",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5-pro-2025-10-06",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5-pro-2025-10-06",
-      "to": "gpt-5.6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-sol",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.o3",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "o3",
-      "to": "gpt-5.6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-sol",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.o3-2025-04-16",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "o3-2025-04-16",
-      "to": "gpt-5.6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-sol",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.o3-pro",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "o3-pro",
-      "to": "gpt-5.6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "to": "gpt-6.1-sol",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2026-12-11",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.o3-pro-2025-06-10",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "o3-pro-2025-06-10",
-      "to": "gpt-5.6-sol",
+      "to": "gpt-6.1-sol",
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5",
       "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-image",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-image",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-mini",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-mini",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-mini..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-mini:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-nano",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-nano",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-nano..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-nano:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-pro",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-pro",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5-pro..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5-pro:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__gpt-5..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/gpt-5:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__o3",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/o3",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__o3-pro",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/o3-pro",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "date": "2026-12-11",
+      "date_precision": "exact",
+      "event_id": "openrouter.retirement.openai__o3..batch",
+      "type": "retirement",
+      "provider": "openai",
+      "route": "openrouter",
+      "model": "openai/o3:batch",
+      "confidence": "high",
+      "source": "https://openrouter.ai/api/v1/models"
     },
     {
       "date": "2026-12-13",
@@ -1043,63 +1307,63 @@
     },
     {
       "date": "2027-01-06",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-tts",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-tts",
       "to": "gpt-realtime-2.1-mini",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-06",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-tts-2025-03-20",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-tts-2025-03-20",
       "to": "gpt-realtime-2.1-mini",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-06",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-tts-2025-12-15",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-tts-2025-12-15",
       "to": "gpt-realtime-2.1-mini",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-06",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.tts-1",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "tts-1",
       "to": "gpt-realtime-2.1-mini",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-06",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.tts-1-hd",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "tts-1-hd",
       "to": "gpt-realtime-2.1-mini",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-08",
@@ -1242,15 +1506,15 @@
     },
     {
       "date": "2027-01-14",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4.1-2025-04-14",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4.1-2025-04-14",
       "to": "gpt-6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-14",
@@ -1266,15 +1530,15 @@
     },
     {
       "date": "2027-01-14",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4.1-mini-2025-04-14",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4.1-mini-2025-04-14",
       "to": "gpt-6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-14",
@@ -1290,27 +1554,27 @@
     },
     {
       "date": "2027-01-14",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-2024-08-06",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-2024-08-06",
       "to": "gpt-6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-14",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-2024-11-20",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-2024-11-20",
       "to": "gpt-6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-14",
@@ -1326,15 +1590,15 @@
     },
     {
       "date": "2027-01-14",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-2024-07-18",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-2024-07-18",
       "to": "gpt-6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-15",
@@ -1443,15 +1707,15 @@
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-audio",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-audio",
       "to": "gpt-audio-1.5",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://deprecations.info/v1/feed.json"
     },
     {
       "date": "2027-01-20",
@@ -1479,15 +1743,15 @@
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-audio",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-audio",
       "to": "gpt-audio-1.5",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://deprecations.info/v1/feed.json"
     },
     {
       "date": "2027-01-20",
@@ -1497,20 +1761,21 @@
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-audio-preview-2024-12-17",
+      "to": "gpt-audio-1.5",
       "confidence": "low",
       "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-realtime",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-realtime",
       "to": "gpt-realtime-2.1-mini",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://deprecations.info/v1/feed.json"
     },
     {
       "date": "2027-01-20",
@@ -1520,128 +1785,129 @@
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-realtime-preview-2024-12-17",
+      "to": "gpt-realtime-2.1-mini",
       "confidence": "low",
       "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-transcribe-2025-03-20",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-transcribe-2025-03-20",
       "to": "gpt-4o-mini-transcribe-2025-12-15",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-realtime",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-realtime",
       "to": "gpt-realtime-2.1",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://deprecations.info/v1/feed.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-audio",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-audio",
       "to": "gpt-audio-1.5",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-audio-2025-08-28",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-audio-2025-08-28",
       "to": "gpt-audio-1.5",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-audio-mini",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-audio-mini",
       "to": "gpt-audio-1.5",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-audio-mini-2025-12-15",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-audio-mini-2025-12-15",
       "to": "gpt-audio-1.5",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-realtime",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-realtime",
       "to": "gpt-realtime-2.1",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-realtime-2025-08-28",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-realtime-2025-08-28",
       "to": "gpt-realtime-2.1",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-realtime-mini",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-realtime-mini",
       "to": "gpt-realtime-2.1-mini",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-20",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-realtime-mini-2025-12-15",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-realtime-mini-2025-12-15",
       "to": "gpt-realtime-2.1-mini",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-01-24",
@@ -1756,14 +2022,14 @@
     },
     {
       "date": "2027-02-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5.5-cyber-preview",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5.5-cyber-preview",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "medium",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-02-02",
@@ -1833,27 +2099,27 @@
     },
     {
       "date": "2027-02-10",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-image-2",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-image-2",
       "to": "gpt-image-2.6-sunburst",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-02-10",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-image-2-2026-04-21",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-image-2-2026-04-21",
       "to": "gpt-image-2.6-sunburst",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-02-15",
@@ -1928,63 +2194,63 @@
     },
     {
       "date": "2027-02-26",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-transcribe",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-transcribe",
       "to": "gpt-live-transcribe",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-02-26",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-mini-transcribe-2025-12-15",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-mini-transcribe-2025-12-15",
       "to": "gpt-live-transcribe",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-02-26",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-transcribe",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-transcribe",
       "to": "gpt-live-transcribe",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-02-26",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-4o-transcribe-diarize",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-4o-transcribe-diarize",
       "to": "gpt-live-transcribe",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-02-26",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.whisper-1",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "whisper-1",
       "to": "gpt-live-transcribe",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-03-01",
@@ -2628,63 +2894,63 @@
     },
     {
       "date": "2027-04-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5.1",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5.1",
       "to": "gpt-6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-04-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5.1-2025-11-13",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5.1-2025-11-13",
       "to": "gpt-6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-04-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5.3-codex",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5.3-codex",
       "to": "gpt-6-sol",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-04-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5.4-nano",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5.4-nano",
       "to": "gpt-6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-04-01",
-      "date_precision": "exact",
+      "date_precision": "estimated",
       "event_id": "openai-api.retirement.gpt-5.4-nano-2026-03-17",
       "type": "retirement",
       "provider": "openai",
       "route": "openai-api",
       "model": "gpt-5.4-nano-2026-03-17",
       "to": "gpt-6-luna",
-      "confidence": "high",
-      "source": "https://developers.openai.com/api/docs/deprecations"
+      "confidence": "low",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
     },
     {
       "date": "2027-04-06",

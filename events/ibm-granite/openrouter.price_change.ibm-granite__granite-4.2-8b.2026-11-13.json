@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.ibm-granite__granite-4.2-8b.2026-11-13",
+  "type": "price_change",
+  "provider": "ibm-granite",
+  "route": "openrouter",
+  "model": "ibm-granite/granite-4.2-8b",
+  "effective": "2026-11-13",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.06 to 0.06, output 0.25 to 0.15 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-13",
+  "last_verified": "2026-11-13",
+  "origin": "openrouter"
+}
