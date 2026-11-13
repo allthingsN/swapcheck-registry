@@ -1,0 +1,15 @@
+{
+  "id": "mistral-api.capability_change.mistral-large-latest.2026-11-13",
+  "type": "capability_change",
+  "provider": "mistral",
+  "route": "mistral-api",
+  "model": "mistral-large-latest",
+  "effective": "2026-11-13",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, structured_output, vision, pdf to tools, structured_output, reasoning, vision, pdf, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-13",
+  "last_verified": "2026-11-13",
+  "origin": "models-dev"
+}

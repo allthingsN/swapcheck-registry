@@ -5,13 +5,21 @@
   "route": "google-ai-studio",
   "model": "gemini-2.5-pro-preview-tts",
   "to": "gemini-3.8-flash-tts",
-  "effective": "2026-11-17",
+  "effective": "2026-12-18",
   "date_precision": "earliest_possible",
   "successor_basis": "provider_named",
   "notes": "The provider also names: gemini-3.8-flash-lite-tts.",
   "source": "https://aistudio.google.com/docs/deprecations",
   "confidence": "high",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "gemini"
+  "last_verified": "2026-11-13",
+  "origin": "gemini",
+  "history": [
+    {
+      "amended_at": "2026-11-13",
+      "previous": {
+        "effective": "2026-11-17"
+      }
+    }
+  ]
 }

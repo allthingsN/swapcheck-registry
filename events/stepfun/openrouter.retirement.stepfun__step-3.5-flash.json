@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.stepfun__step-3.5-flash",
+  "type": "retirement",
+  "provider": "stepfun",
+  "route": "openrouter",
+  "model": "stepfun/step-3.5-flash",
+  "effective": "2026-11-15",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-13",
+  "last_verified": "2026-11-13",
+  "origin": "openrouter"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mistral-api.price_change.mistral-large-latest.2026-11-13",
+  "type": "price_change",
+  "provider": "mistral",
+  "route": "mistral-api",
+  "model": "mistral-large-latest",
+  "effective": "2026-11-13",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.5 to 0.7, output 1.5 to 2.1 USD per million tokens, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-13",
+  "last_verified": "2026-11-13",
+  "origin": "models-dev"
+}

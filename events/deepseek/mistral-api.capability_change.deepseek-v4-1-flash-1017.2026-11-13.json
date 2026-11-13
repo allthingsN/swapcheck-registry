@@ -1,0 +1,15 @@
+{
+  "id": "mistral-api.capability_change.deepseek-v4-1-flash-1017.2026-11-13",
+  "type": "capability_change",
+  "provider": "deepseek",
+  "route": "mistral-api",
+  "model": "deepseek-v4-1-flash-1017",
+  "effective": "2026-11-13",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, structured_output, reasoning to tools, structured_output, reasoning, vision, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-13",
+  "last_verified": "2026-11-13",
+  "origin": "models-dev"
+}

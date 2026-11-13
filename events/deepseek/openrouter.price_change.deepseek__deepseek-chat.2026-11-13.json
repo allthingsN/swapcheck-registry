@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.deepseek__deepseek-chat.2026-11-13",
+  "type": "price_change",
+  "provider": "deepseek",
+  "route": "openrouter",
+  "model": "deepseek/deepseek-chat",
+  "effective": "2026-11-13",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.32 to 0.2574, output 0.89 to 1.0287 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-13",
+  "last_verified": "2026-11-13",
+  "origin": "openrouter"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.capability_change.meta-llama__llama-3.1-70b-instruct.2026-11-13",
+  "type": "capability_change",
+  "provider": "meta",
+  "route": "openrouter",
+  "model": "meta-llama/llama-3.1-70b-instruct",
+  "effective": "2026-11-13",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from none to tools, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-13",
+  "last_verified": "2026-11-13",
+  "origin": "openrouter"
+}

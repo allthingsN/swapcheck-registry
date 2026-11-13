@@ -6,11 +6,24 @@
   "model": "gpt-4o-2024-08-06",
   "to": "gpt-6-luna",
   "effective": "2027-01-14",
-  "date_precision": "exact",
-  "successor_basis": "provider_named",
-  "source": "https://developers.openai.com/api/docs/deprecations",
-  "confidence": "high",
+  "date_precision": "estimated",
+  "successor_basis": "inferred",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "openai"
+  "last_verified": "2026-11-13",
+  "origin": "litellm",
+  "history": [
+    {
+      "amended_at": "2026-11-13",
+      "previous": {
+        "date_precision": "exact",
+        "successor_basis": "provider_named",
+        "source": "https://developers.openai.com/api/docs/deprecations",
+        "confidence": "high",
+        "notes": null
+      }
+    }
+  ]
 }
