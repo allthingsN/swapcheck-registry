@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.google__gemma-3-27b-it.2026-11-14",
+  "type": "price_change",
+  "provider": "google",
+  "route": "openrouter",
+  "model": "google/gemma-3-27b-it",
+  "effective": "2026-11-14",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.08 to 0.08, output 0.45 to 0.35 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-14",
+  "last_verified": "2026-11-14",
+  "origin": "openrouter"
+}
