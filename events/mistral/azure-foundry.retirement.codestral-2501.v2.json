@@ -4,13 +4,23 @@
   "provider": "mistral",
   "route": "azure-foundry",
   "model": "Codestral-2501",
+  "to": "mistral-large-4-latest",
   "effective": "2027-02-15",
   "date_precision": "estimated",
-  "successor_basis": "none",
+  "successor_basis": "provider_named",
   "notes": "Azure lifecycle stage: GA. Azure version 2.",
   "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
   "confidence": "high",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "azure"
+  "last_verified": "2026-11-14",
+  "origin": "azure",
+  "history": [
+    {
+      "amended_at": "2026-11-14",
+      "previous": {
+        "to": null,
+        "successor_basis": "none"
+      }
+    }
+  ]
 }

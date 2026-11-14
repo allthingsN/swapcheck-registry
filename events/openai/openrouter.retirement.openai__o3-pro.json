@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.openai__o3-pro",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "openrouter",
+  "model": "openai/o3-pro",
+  "effective": "2026-12-11",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-14",
+  "last_verified": "2026-11-14",
+  "origin": "openrouter"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.xiaomi__mimo-v2.5-pro.2026-11-14",
+  "type": "price_change",
+  "provider": "xiaomi",
+  "route": "openrouter",
+  "model": "xiaomi/mimo-v2.5-pro",
+  "effective": "2026-11-14",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.48 to 0.435, output 1.8 to 0.87 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-14",
+  "last_verified": "2026-11-14",
+  "origin": "openrouter"
+}

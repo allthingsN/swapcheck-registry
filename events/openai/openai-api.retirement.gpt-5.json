@@ -4,13 +4,27 @@
   "provider": "openai",
   "route": "openai-api",
   "model": "gpt-5",
-  "to": "gpt-5.6-sol",
+  "to": "gpt-6.1-sol",
   "effective": "2026-12-11",
-  "date_precision": "exact",
-  "successor_basis": "provider_named",
-  "source": "https://developers.openai.com/api/docs/deprecations",
-  "confidence": "high",
+  "date_precision": "estimated",
+  "successor_basis": "inferred",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "openai"
+  "last_verified": "2026-11-14",
+  "origin": "litellm",
+  "history": [
+    {
+      "amended_at": "2026-11-14",
+      "previous": {
+        "to": "gpt-5.6-sol",
+        "date_precision": "exact",
+        "successor_basis": "provider_named",
+        "source": "https://developers.openai.com/api/docs/deprecations",
+        "confidence": "high",
+        "notes": null
+      }
+    }
+  ]
 }

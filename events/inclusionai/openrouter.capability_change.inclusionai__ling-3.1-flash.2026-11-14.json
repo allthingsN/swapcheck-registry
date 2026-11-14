@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.capability_change.inclusionai__ling-3.1-flash.2026-11-14",
+  "type": "capability_change",
+  "provider": "inclusionai",
+  "route": "openrouter",
+  "model": "inclusionai/ling-3.1-flash",
+  "effective": "2026-11-14",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, structured_output, reasoning to tools, reasoning, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-14",
+  "last_verified": "2026-11-14",
+  "origin": "openrouter"
+}

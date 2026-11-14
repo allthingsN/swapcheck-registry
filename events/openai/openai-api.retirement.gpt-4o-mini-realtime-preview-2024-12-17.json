@@ -4,13 +4,23 @@
   "provider": "openai",
   "route": "openai-api",
   "model": "gpt-4o-mini-realtime-preview-2024-12-17",
+  "to": "gpt-realtime-2.1-mini",
   "effective": "2027-01-20",
   "date_precision": "estimated",
-  "successor_basis": "none",
+  "successor_basis": "inferred",
   "notes": "Single secondary source (litellm); not on the provider's own page.",
   "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
   "confidence": "low",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "litellm"
+  "last_verified": "2026-11-14",
+  "origin": "litellm",
+  "history": [
+    {
+      "amended_at": "2026-11-14",
+      "previous": {
+        "to": null,
+        "successor_basis": "none"
+      }
+    }
+  ]
 }

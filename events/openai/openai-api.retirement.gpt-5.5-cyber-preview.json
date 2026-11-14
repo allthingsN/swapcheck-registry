@@ -5,11 +5,23 @@
   "route": "openai-api",
   "model": "gpt-5.5-cyber-preview",
   "effective": "2027-02-01",
-  "date_precision": "exact",
+  "date_precision": "estimated",
   "successor_basis": "none",
-  "source": "https://developers.openai.com/api/docs/deprecations",
-  "confidence": "high",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "openai"
+  "last_verified": "2026-11-14",
+  "origin": "litellm",
+  "history": [
+    {
+      "amended_at": "2026-11-14",
+      "previous": {
+        "date_precision": "exact",
+        "source": "https://developers.openai.com/api/docs/deprecations",
+        "confidence": "high",
+        "notes": null
+      }
+    }
+  ]
 }

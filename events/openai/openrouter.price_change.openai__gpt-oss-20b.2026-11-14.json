@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.openai__gpt-oss-20b.2026-11-14",
+  "type": "price_change",
+  "provider": "openai",
+  "route": "openrouter",
+  "model": "openai/gpt-oss-20b",
+  "effective": "2026-11-14",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.03 to 0.018, output 0.13 to 0.09 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-14",
+  "last_verified": "2026-11-14",
+  "origin": "openrouter"
+}

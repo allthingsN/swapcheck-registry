@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.capability_change.kt__midm-k-3.0-pro.2026-11-14",
+  "type": "capability_change",
+  "provider": "kt",
+  "route": "openrouter",
+  "model": "kt/midm-k-3.0-pro",
+  "effective": "2026-11-14",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from structured_output, reasoning to tools, structured_output, reasoning, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-14",
+  "last_verified": "2026-11-14",
+  "origin": "openrouter"
+}
