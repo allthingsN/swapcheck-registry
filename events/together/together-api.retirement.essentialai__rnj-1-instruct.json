@@ -1,0 +1,16 @@
+{
+  "id": "together-api.retirement.essentialai__rnj-1-instruct",
+  "type": "retirement",
+  "provider": "together",
+  "route": "together-api",
+  "model": "essentialai/rnj-1-instruct",
+  "effective": "2026-11-14",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
+  "first_seen": "2026-11-14",
+  "last_verified": "2026-11-14",
+  "origin": "litellm"
+}
