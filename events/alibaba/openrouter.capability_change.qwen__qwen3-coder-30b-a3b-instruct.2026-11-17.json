@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.capability_change.qwen__qwen3-coder-30b-a3b-instruct.2026-11-17",
+  "type": "capability_change",
+  "provider": "alibaba",
+  "route": "openrouter",
+  "model": "qwen/qwen3-coder-30b-a3b-instruct",
+  "effective": "2026-11-17",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, structured_output to tools, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-17",
+  "last_verified": "2026-11-17",
+  "origin": "openrouter"
+}
