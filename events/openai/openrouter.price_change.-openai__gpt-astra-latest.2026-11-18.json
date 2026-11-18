@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.-openai__gpt-astra-latest.2026-11-18",
+  "type": "price_change",
+  "provider": "openai",
+  "route": "openrouter",
+  "model": "~openai/gpt-astra-latest",
+  "effective": "2026-11-18",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 10 to 8, output 50 to 40 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-18",
+  "last_verified": "2026-11-18",
+  "origin": "openrouter"
+}
