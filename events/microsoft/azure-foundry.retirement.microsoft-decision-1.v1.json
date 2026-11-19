@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.microsoft-decision-1.v1",
+  "type": "retirement",
+  "provider": "microsoft",
+  "route": "azure-foundry",
+  "model": "Microsoft-Decision-1",
+  "effective": "2027-02-04",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: Preview. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-19",
+  "last_verified": "2026-11-19",
+  "origin": "azure"
+}
