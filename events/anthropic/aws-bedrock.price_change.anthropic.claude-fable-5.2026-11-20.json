@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.price_change.anthropic.claude-fable-5.2026-11-20",
+  "type": "price_change",
+  "provider": "anthropic",
+  "route": "aws-bedrock",
+  "model": "anthropic.claude-fable-5",
+  "effective": "2026-11-20",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 10 to 11, output 50 to 55 USD per million tokens, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-20",
+  "last_verified": "2026-11-20",
+  "origin": "models-dev"
+}
