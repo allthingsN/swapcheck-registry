@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.mistral-ocr-4-0.v1",
+  "type": "retirement",
+  "provider": "mistral",
+  "route": "azure-foundry",
+  "model": "mistral-ocr-4-0",
+  "effective": "2027-10-01",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: GA. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-20",
+  "last_verified": "2026-11-20",
+  "origin": "azure"
+}
