@@ -1,0 +1,16 @@
+{
+  "id": "google-vertex.price_change.gemini-2.5-flash-image.2026-11-21",
+  "type": "price_change",
+  "provider": "google",
+  "route": "google-vertex",
+  "model": "gemini-2.5-flash-image",
+  "effective": "2026-11-21",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.3 to 0.3, output 30 to 2.5 USD per million tokens, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-21",
+  "last_verified": "2026-11-21",
+  "origin": "models-dev"
+}
