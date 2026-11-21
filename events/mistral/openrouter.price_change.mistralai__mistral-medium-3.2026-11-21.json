@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.mistralai__mistral-medium-3.2026-11-21",
+  "type": "price_change",
+  "provider": "mistral",
+  "route": "openrouter",
+  "model": "mistralai/mistral-medium-3",
+  "effective": "2026-11-21",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.4 to 0.44, output 2 to 2.2 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-21",
+  "last_verified": "2026-11-21",
+  "origin": "openrouter"
+}
