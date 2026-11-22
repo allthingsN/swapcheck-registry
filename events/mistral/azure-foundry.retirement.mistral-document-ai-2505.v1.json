@@ -13,5 +13,6 @@
   "confidence": "high",
   "first_seen": "2026-11-10",
   "last_verified": "2026-11-10",
-  "origin": "azure"
+  "origin": "azure",
+  "not_listed_since": "2026-11-22"
 }
