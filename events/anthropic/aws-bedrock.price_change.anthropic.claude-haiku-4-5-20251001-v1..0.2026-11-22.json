@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.price_change.anthropic.claude-haiku-4-5-20251001-v1..0.2026-11-22",
+  "type": "price_change",
+  "provider": "anthropic",
+  "route": "aws-bedrock",
+  "model": "anthropic.claude-haiku-4-5-20251001-v1:0",
+  "effective": "2026-11-22",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 1 to 1.1, output 5 to 5.5 USD per million tokens, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-22",
+  "last_verified": "2026-11-22",
+  "origin": "models-dev"
+}
