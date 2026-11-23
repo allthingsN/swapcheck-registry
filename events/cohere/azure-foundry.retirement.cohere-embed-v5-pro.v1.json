@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.cohere-embed-v5-pro.v1",
+  "type": "retirement",
+  "provider": "cohere",
+  "route": "azure-foundry",
+  "model": "Cohere-Embed-V5-Pro",
+  "effective": "2027-01-23",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: Preview. Azure version 1.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-23",
+  "last_verified": "2026-11-23",
+  "origin": "azure"
+}

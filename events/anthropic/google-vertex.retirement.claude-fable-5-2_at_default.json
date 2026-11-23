@@ -4,13 +4,23 @@
   "provider": "anthropic",
   "route": "google-vertex",
   "model": "claude-fable-5-2@default",
+  "to": "claude-opus-5-5@default",
   "effective": "2027-11-09",
   "date_precision": "estimated",
-  "successor_basis": "none",
+  "successor_basis": "inferred",
   "notes": "Single secondary source (litellm); not on the provider's own page.",
   "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
   "confidence": "low",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "litellm"
+  "last_verified": "2026-11-23",
+  "origin": "litellm",
+  "history": [
+    {
+      "amended_at": "2026-11-23",
+      "previous": {
+        "to": null,
+        "successor_basis": "none"
+      }
+    }
+  ]
 }
