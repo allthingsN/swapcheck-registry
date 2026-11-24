@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.gpt-transcribe-2026-07-28",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "azure-foundry",
+  "model": "gpt-transcribe-2026-07-28",
+  "effective": "2028-02-01",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: GA.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-24",
+  "last_verified": "2026-11-24",
+  "origin": "azure"
+}
