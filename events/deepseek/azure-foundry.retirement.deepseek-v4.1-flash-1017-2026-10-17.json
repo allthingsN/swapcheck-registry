@@ -1,0 +1,16 @@
+{
+  "id": "azure-foundry.retirement.deepseek-v4.1-flash-1017-2026-10-17",
+  "type": "retirement",
+  "provider": "deepseek",
+  "route": "azure-foundry",
+  "model": "DeepSeek-V4.1-Flash-1017-2026-10-17",
+  "effective": "2027-03-06",
+  "date_precision": "estimated",
+  "successor_basis": "none",
+  "notes": "Azure lifecycle stage: Preview.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
+  "first_seen": "2026-11-24",
+  "last_verified": "2026-11-24",
+  "origin": "azure"
+}

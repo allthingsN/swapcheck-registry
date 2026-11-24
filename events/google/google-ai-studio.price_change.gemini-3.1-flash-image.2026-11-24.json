@@ -1,0 +1,16 @@
+{
+  "id": "google-ai-studio.price_change.gemini-3.1-flash-image.2026-11-24",
+  "type": "price_change",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-3.1-flash-image",
+  "effective": "2026-11-24",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.5 to 0.5, output 60 to 3 USD per million tokens, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-24",
+  "last_verified": "2026-11-24",
+  "origin": "models-dev"
+}
