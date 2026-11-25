@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.meta__muse-glimmer-30b.2026-11-25",
+  "type": "price_change",
+  "provider": "meta",
+  "route": "openrouter",
+  "model": "meta/muse-glimmer-30b",
+  "effective": "2026-11-25",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.3 to 0.35, output 1.2 to 1.5 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-25",
+  "last_verified": "2026-11-25",
+  "origin": "openrouter"
+}

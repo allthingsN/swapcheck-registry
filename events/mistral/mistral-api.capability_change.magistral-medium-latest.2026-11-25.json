@@ -1,0 +1,15 @@
+{
+  "id": "mistral-api.capability_change.magistral-medium-latest.2026-11-25",
+  "type": "capability_change",
+  "provider": "mistral",
+  "route": "mistral-api",
+  "model": "magistral-medium-latest",
+  "effective": "2026-11-25",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, reasoning, vision to tools, structured_output, reasoning, vision, pdf, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-25",
+  "last_verified": "2026-11-25",
+  "origin": "models-dev"
+}

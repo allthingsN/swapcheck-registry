@@ -6,12 +6,24 @@
   "model": "mistral-medium-3-5",
   "to": "mistral-large-4",
   "effective": "2027-04-30",
-  "date_precision": "exact",
-  "successor_basis": "provider_named",
-  "notes": "Status on page: Deprecated. Deprecated 2026-10-31.",
-  "source": "https://docs.mistral.ai/models",
-  "confidence": "high",
+  "date_precision": "estimated",
+  "successor_basis": "inferred",
+  "notes": "Single secondary source (litellm); not on the provider's own page.",
+  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+  "confidence": "low",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "mistral"
+  "last_verified": "2026-11-25",
+  "origin": "litellm",
+  "history": [
+    {
+      "amended_at": "2026-11-25",
+      "previous": {
+        "date_precision": "exact",
+        "successor_basis": "provider_named",
+        "source": "https://docs.mistral.ai/models",
+        "confidence": "high",
+        "notes": "Status on page: Deprecated. Deprecated 2026-10-31."
+      }
+    }
+  ]
 }

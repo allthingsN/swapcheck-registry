@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.unbiased__pareto-26.9",
+  "type": "retirement",
+  "provider": "unbiased",
+  "route": "openrouter",
+  "model": "unbiased/pareto-26.9",
+  "effective": "2026-11-25",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-25",
+  "last_verified": "2026-11-25",
+  "origin": "openrouter"
+}
