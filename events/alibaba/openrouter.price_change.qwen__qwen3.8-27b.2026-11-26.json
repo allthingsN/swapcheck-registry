@@ -1,0 +1,16 @@
+{
+  "id": "openrouter.price_change.qwen__qwen3.8-27b.2026-11-26",
+  "type": "price_change",
+  "provider": "alibaba",
+  "route": "openrouter",
+  "model": "qwen/qwen3.8-27b",
+  "effective": "2026-11-26",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 0.15 to 0.035, output 1.875 to 1.5 USD per million tokens, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-26",
+  "last_verified": "2026-11-26",
+  "origin": "openrouter"
+}
