@@ -4,13 +4,22 @@
   "provider": "google",
   "route": "google-vertex",
   "model": "gemini-3.6-flash",
-  "to": "gemini-3.8-flash",
-  "effective": "2026-11-19",
+  "to": "gemini-4-hydrogen",
+  "effective": "2027-01-28",
   "date_precision": "exact",
   "successor_basis": "provider_named",
   "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
   "confidence": "high",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "vertex"
+  "last_verified": "2026-11-26",
+  "origin": "vertex",
+  "history": [
+    {
+      "amended_at": "2026-11-26",
+      "previous": {
+        "to": "gemini-3.8-flash",
+        "effective": "2026-11-19"
+      }
+    }
+  ]
 }
