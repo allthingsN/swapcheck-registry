@@ -1,0 +1,16 @@
+{
+  "id": "cohere-api.price_change.command-a-plus-05-2026.2026-11-27",
+  "type": "price_change",
+  "provider": "cohere",
+  "route": "cohere-api",
+  "model": "command-a-plus-05-2026",
+  "effective": "2026-11-27",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 2.5 to 0, output 10 to 0 USD per million tokens, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-27",
+  "last_verified": "2026-11-27",
+  "origin": "models-dev"
+}
