@@ -1,0 +1,17 @@
+{
+  "id": "together-api.retirement.openai__gpt-oss-120b",
+  "type": "retirement",
+  "provider": "openai",
+  "route": "together-api",
+  "model": "openai/gpt-oss-120b",
+  "to": "zai-org/GLM-5.3-Flash",
+  "effective": "2026-12-09",
+  "date_precision": "exact",
+  "successor_basis": "provider_named",
+  "notes": "Scheduled removal from serverless inference.",
+  "source": "https://docs.together.ai/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-27",
+  "last_verified": "2026-11-27",
+  "origin": "together"
+}

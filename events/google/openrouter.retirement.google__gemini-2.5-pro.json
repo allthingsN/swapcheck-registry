@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.google__gemini-2.5-pro",
+  "type": "retirement",
+  "provider": "google",
+  "route": "openrouter",
+  "model": "google/gemini-2.5-pro",
+  "effective": "2026-12-01",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-27",
+  "last_verified": "2026-11-27",
+  "origin": "openrouter"
+}

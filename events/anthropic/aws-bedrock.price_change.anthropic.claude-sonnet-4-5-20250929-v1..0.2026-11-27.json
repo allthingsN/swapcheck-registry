@@ -1,0 +1,16 @@
+{
+  "id": "aws-bedrock.price_change.anthropic.claude-sonnet-4-5-20250929-v1..0.2026-11-27",
+  "type": "price_change",
+  "provider": "anthropic",
+  "route": "aws-bedrock",
+  "model": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "effective": "2026-11-27",
+  "date_precision": "estimated",
+  "billing": "unknown",
+  "notes": "Input 3 to 3.3, output 15 to 16.5 USD per million tokens, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-27",
+  "last_verified": "2026-11-27",
+  "origin": "models-dev"
+}

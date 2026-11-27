@@ -1,0 +1,14 @@
+{
+  "id": "openai-api.new_model.gpt-6.2-sol",
+  "type": "new_model",
+  "provider": "openai",
+  "route": "openai-api",
+  "model": "gpt-6.2-sol",
+  "effective": "2026-11-17",
+  "date_precision": "estimated",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-27",
+  "last_verified": "2026-11-27",
+  "origin": "models-dev"
+}
