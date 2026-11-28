@@ -7,10 +7,20 @@
   "effective": "2028-01-11",
   "date_precision": "estimated",
   "successor_basis": "none",
-  "notes": "Single secondary source (litellm); not on the provider's own page.",
-  "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-  "confidence": "low",
+  "notes": "Azure lifecycle stage: GA.",
+  "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+  "confidence": "high",
   "first_seen": "2026-11-10",
-  "last_verified": "2026-11-10",
-  "origin": "litellm"
+  "last_verified": "2026-11-28",
+  "origin": "azure",
+  "history": [
+    {
+      "amended_at": "2026-11-28",
+      "previous": {
+        "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+        "confidence": "low",
+        "notes": "Single secondary source (litellm); not on the provider's own page."
+      }
+    }
+  ]
 }

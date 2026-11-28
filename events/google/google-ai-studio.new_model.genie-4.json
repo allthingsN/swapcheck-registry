@@ -1,0 +1,14 @@
+{
+  "id": "google-ai-studio.new_model.genie-4",
+  "type": "new_model",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "genie-4",
+  "effective": "2026-11-19",
+  "date_precision": "exact",
+  "source": "https://aistudio.google.com/docs/deprecations",
+  "confidence": "high",
+  "first_seen": "2026-11-28",
+  "last_verified": "2026-11-28",
+  "origin": "gemini"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.capability_change.z-ai__glm-4.6v.2026-11-28",
+  "type": "capability_change",
+  "provider": "zhipu",
+  "route": "openrouter",
+  "model": "z-ai/glm-4.6v",
+  "effective": "2026-11-28",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, structured_output, reasoning, vision to tools, reasoning, vision, observed in https://openrouter.ai/api/v1/models.",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-28",
+  "last_verified": "2026-11-28",
+  "origin": "openrouter"
+}
