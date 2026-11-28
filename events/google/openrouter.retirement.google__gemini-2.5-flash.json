@@ -1,0 +1,15 @@
+{
+  "id": "openrouter.retirement.google__gemini-2.5-flash",
+  "type": "retirement",
+  "provider": "google",
+  "route": "openrouter",
+  "model": "google/gemini-2.5-flash",
+  "effective": "2026-12-01",
+  "date_precision": "exact",
+  "successor_basis": "none",
+  "source": "https://openrouter.ai/api/v1/models",
+  "confidence": "high",
+  "first_seen": "2026-11-28",
+  "last_verified": "2026-11-28",
+  "origin": "openrouter"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "google-ai-studio.capability_change.gemini-3.1-flash-lite-image.2026-11-28",
+  "type": "capability_change",
+  "provider": "google",
+  "route": "google-ai-studio",
+  "model": "gemini-3.1-flash-lite-image",
+  "effective": "2026-11-28",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, reasoning, vision to tools, reasoning, vision, pdf, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-28",
+  "last_verified": "2026-11-28",
+  "origin": "models-dev"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "aws-bedrock.capability_change.global.xai.grok-4.7.2026-11-28",
+  "type": "capability_change",
+  "provider": "xai",
+  "route": "aws-bedrock",
+  "model": "global.xai.grok-4.7",
+  "effective": "2026-11-28",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, structured_output, reasoning, vision, pdf to tools, structured_output, reasoning, vision, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-28",
+  "last_verified": "2026-11-28",
+  "origin": "models-dev"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "aws-bedrock.capability_change.in.openai.gpt-5.6-luna.2026-11-28",
+  "type": "capability_change",
+  "provider": "openai",
+  "route": "aws-bedrock",
+  "model": "in.openai.gpt-5.6-luna",
+  "effective": "2026-11-28",
+  "date_precision": "estimated",
+  "notes": "Capabilities changed from tools, structured_output, reasoning, vision, pdf to tools, structured_output, reasoning, vision, observed in https://models.dev/api.json.",
+  "source": "https://models.dev/api.json",
+  "confidence": "low",
+  "first_seen": "2026-11-28",
+  "last_verified": "2026-11-28",
+  "origin": "models-dev"
+}
